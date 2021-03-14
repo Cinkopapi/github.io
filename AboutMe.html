@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AboutMe</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Christina.css" rel="stylesheet">
+<link href="AboutMe.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.animatesvg.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#floatingHeader']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_floatingHeader').offset().top }, 600, 'easeInSine');
+   });
+   $("a[href*='#header']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
+   });
+   $("#TextArt1").animatesvg(
+   {
+      delay: 100,
+      duration: 100,
+      easing: 'linear'
+   });
+   $("#TextArt1").animatesvg('animate');
+   $("a[href*='#contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top }, 600, 'easeOutExpo');
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_floatingHeader">
+<div id="floatingHeader">
+<div class="row">
+<div class="col-1">
+<div id="wb_headerIcon1">
+<a href="https://www.facebook.com/christina.s.szabo" target="_blank"><div id="headerIcon1"><i class="fa fa-facebook-square"></i></div></a>
+</div>
+<div id="wb_headerIcon2">
+<a href="https://www.youtube.com/user/FrankSinatra" target="_blank"><div id="headerIcon2"><i class="fa fa-instagram"></i></div></a>
+</div>
+</div>
+<div class="col-2">
+</div>
+<div class="col-3">
+<div id="wb_headerBreadcrumb">
+<ul id="headerBreadcrumb">
+<li><a href="http://">Magyar</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_header">
+<header id="header">
+<div class="col-1">
+<div id="wb_headerLogo">
+<ul id="headerLogo">
+<li><a href="./index.html#LayoutGrid2">&nbsp; BATIK</a></li>
+</ul>
+
+</div>
+<div id="wb_IconFont7">
+<a href="./index.html#LayoutGrid5"><div id="IconFont7"><i class="fa fa-pagelines"></i></div></a>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_headerMenu">
+<label class="toggle" for="headerMenu-submenu" id="headerMenu-title"><span id="headerMenu-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="headerMenu-submenu">
+<ul class="headerMenu" id="headerMenu" role="menu">
+<li><a role="menuitem" href="./index.html">Home</a></li>
+<li><a role="menuitem" href="./AboutMe.html" class="active">About&nbsp;me</a></li>
+<li><a role="menuitem" href="./MyWorks.html">My&nbsp;works</a></li>
+<li>
+<label for="headerMenu-submenu-0" class="toggle">Happenings<b class="arrow-down"></b></label>
+<a role="menuitem" href="./Happenings.html">Happenings<b class="arrow-down"></b></a>
+<input type="checkbox" id="headerMenu-submenu-0">
+<ul role="menu">
+<li><a role="menuitem" href="./Happenings.html">Workshops</a></li>
+<li><a role="menuitem" href="./Happenings.html#LayoutGrid4">Exhibitions</a></li>
+<li><a role="menuitem" href="./Happenings.html#LayoutGrid6">Travels</a></li>
+</ul>
+</li>
+<li><a role="menuitem" href="./Contact.html">Contacts</a></li>
+</ul>
+
+</div>
+</div>
+</header>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_TextArt1">
+<svg id="TextArt1" height="100%" width="100%" viewBox="0 0 920 107" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+   <path id="TextArt1-shape0" d="M0 26 C0 20, 3 15, 9 11 C15 6, 23 3, 32 1 L33 6 C27 8, 22 11, 19 14 C14 18, 13 22, 13 27 C13 31, 14 35, 18 37 C21 40, 24 42, 29 43 C40 32, 52 23, 67 15 C84 5, 100 0, 115 0 C121 0, 126 1, 130 3 C136 6, 139 10, 139 14 C139 20, 135 26, 129 30 C123 34, 116 36, 109 36 C106 36, 104 36, 101 35 C99 34, 97 34, 97 33 C90 39, 82 43, 69 46 C60 48, 51 50, 38 50 C35 54, 32 58, 29 64 C26 70, 25 75, 25 80 C25 85, 27 89, 32 92 C35 95, 41 96, 47 96 C55 96, 63 93, 71 89 C80 83, 85 78, 85 71 C85 69, 85 67, 83 66 C81 65, 79 64, 78 64 C74 64, 71 65, 69 67 C67 68, 64 70, 61 73 L57 72 C59 67, 62 63, 67 60 C71 56, 77 55, 82 55 C86 55, 89 56, 92 58 C95 60, 96 63, 96 66 C96 76, 89 84, 76 93 C64 100, 52 104, 41 104 C32 104, 24 102, 18 99 C12 94, 9 88, 9 81 C9 75, 11 69, 14 62 C16 57, 21 53, 26 48 C20 47, 14 45, 9 41 C3 37, 0 32, 0 26 Z" />
+   <path id="TextArt1-shape1" d="M45 44 C55 44, 63 43, 71 40 C79 38, 87 34, 92 29 C90 27, 89 25, 89 23 C89 21, 89 20, 90 18 C92 17, 94 16, 96 16 C98 16, 99 17, 100 18 C101 19, 102 21, 102 22 C102 25, 101 27, 99 29 C100 29, 101 29, 103 30 C105 30, 106 30, 108 30 C113 30, 117 29, 122 26 C125 24, 127 20, 127 16 C127 13, 126 11, 123 9 C119 7, 115 6, 111 6 C99 6, 86 11, 71 20 C59 28, 49 36, 41 44 Z" />
+   <path id="TextArt1-shape2" d="M104 104 C100 104, 97 104, 95 103 C93 103, 91 101, 90 98 L91 95 C93 95, 94 94, 95 94 C97 94, 97 94, 98 95 C100 95, 101 95, 101 95 C107 93, 115 85, 124 70 C136 49, 144 37, 149 33 C161 17, 176 10, 192 10 C196 10, 198 10, 201 11 C203 12, 205 14, 207 17 L205 20 L201 21 C199 21, 196 20, 192 18 C189 17, 187 17, 184 17 C178 17, 170 20, 164 28 C160 33, 153 41, 146 52 C140 63, 135 69, 133 70 C135 67, 138 65, 142 63 C148 60, 153 58, 159 58 C161 58, 164 59, 167 61 C169 62, 170 64, 170 67 C170 70, 167 74, 161 77 C149 87, 142 93, 141 96 L143 97 C145 97, 148 96, 152 95 C152 95, 153 95, 154 95 C155 96, 156 96, 156 96 L158 99 L156 102 C155 103, 154 103, 153 103 C153 103, 152 103, 152 103 C151 103, 148 103, 145 103 C143 103, 141 103, 139 103 L132 103 L128 100 C128 96, 133 91, 143 84 C152 77, 157 72, 157 69 C157 67, 155 66, 152 66 C148 66, 142 68, 136 73 C133 74, 129 79, 121 87 C115 94, 110 97, 106 97 L109 97 C111 97, 113 97, 114 97 C115 96, 118 95, 121 94 L124 97 C120 99, 116 101, 114 103 C110 104, 106 104, 104 104 Z" />
+   <path id="TextArt1-shape3" d="M164 103 C168 98, 174 89, 183 76 C188 70, 189 67, 190 67 L190 67 C190 67, 189 68, 186 70 C184 70, 182 71, 179 73 L176 70 C179 67, 182 65, 187 63 C191 60, 195 59, 198 59 C198 59, 199 59, 201 60 L203 63 C203 64, 202 65, 202 66 C202 67, 201 68, 199 69 C200 67, 202 65, 205 63 C208 61, 212 60, 216 60 C217 60, 219 60, 221 61 C223 62, 224 63, 224 65 C224 68, 222 69, 218 69 C217 69, 216 69, 215 68 C214 68, 213 68, 212 68 C207 68, 199 72, 191 82 C186 88, 180 95, 177 103 Z" />
+   <path id="TextArt1-shape4" d="M220 104 C216 104, 214 102, 214 99 C214 97, 216 94, 220 89 C225 80, 231 72, 236 66 C236 66, 236 67, 236 67 C235 66, 235 66, 236 67 C235 67, 234 67, 232 69 C229 70, 226 71, 224 72 L222 69 C225 66, 230 64, 233 62 C236 60, 240 59, 243 59 C246 59, 248 60, 248 64 C248 66, 244 71, 237 81 C230 90, 226 95, 226 96 C226 96, 226 96, 226 96 C227 96, 229 95, 232 93 C233 93, 235 92, 239 89 L241 93 C237 96, 235 98, 232 100 C227 103, 224 104, 220 104 Z" />
+   <path id="TextArt1-shape5" d="M259 33 C262 33, 264 34, 264 37 C264 39, 263 40, 262 42 C261 44, 259 44, 257 44 C253 44, 252 43, 252 40 C252 38, 253 36, 253 35 C255 34, 257 33, 259 33 Z" />
+   <path id="TextArt1-shape6" d="M291 55 L292 52 L295 51 C298 51, 299 52, 300 53 C301 55, 302 56, 302 57 C302 61, 300 63, 298 65 C295 67, 291 68, 288 68 C286 68, 284 68, 281 67 C279 67, 277 67, 275 67 C273 67, 272 68, 272 69 C272 69, 275 73, 280 79 C282 82, 284 85, 284 88 C284 93, 281 97, 277 100 C272 103, 268 105, 262 105 C257 105, 253 104, 250 102 C246 100, 244 97, 244 93 C244 90, 245 87, 248 85 C251 83, 253 82, 257 82 C260 82, 262 83, 264 84 C266 85, 267 87, 267 89 C267 91, 266 92, 265 93 C264 95, 262 95, 260 95 L256 94 L254 91 C254 90, 255 90, 255 89 C255 88, 255 88, 255 88 C255 88, 255 88, 255 88 C254 88, 253 89, 253 90 C252 91, 251 91, 251 93 C251 95, 253 96, 254 97 C256 99, 259 99, 262 99 C264 99, 267 98, 270 97 C271 95, 272 93, 272 91 C272 89, 271 86, 269 82 C265 79, 264 75, 264 73 C264 69, 265 66, 269 64 C272 61, 276 60, 281 60 C282 60, 285 60, 288 60 C290 60, 291 60, 292 60 C294 60, 295 60, 296 60 C295 60, 294 59, 293 59 C291 58, 291 57, 291 55 Z" />
+   <path id="TextArt1-shape7" d="M308 66 C308 64, 308 62, 310 61 C312 60, 315 60, 317 60 C318 60, 320 60, 321 60 C323 60, 324 60, 324 60 C328 53, 333 47, 338 42 C346 34, 354 30, 362 30 C366 30, 368 32, 368 34 L367 36 C365 37, 364 37, 363 37 C361 37, 360 37, 359 37 C353 37, 347 40, 344 47 C340 52, 336 57, 334 61 L336 62 C340 62, 343 60, 343 58 C344 55, 345 54, 347 54 C351 54, 353 55, 353 58 C353 61, 351 64, 348 65 C345 66, 341 67, 336 67 C336 67, 335 67, 333 67 C332 66, 332 66, 332 66 C331 69, 330 71, 329 72 C328 75, 327 77, 326 79 C327 81, 328 84, 328 87 C328 92, 326 97, 319 100 C314 103, 308 104, 301 104 C298 104, 295 104, 292 103 C289 102, 286 101, 286 98 C286 96, 288 94, 290 94 C290 94, 291 95, 292 95 C293 95, 294 95, 294 95 C296 95, 300 92, 307 86 C312 81, 315 77, 315 76 C314 74, 313 74, 312 73 C309 70, 308 68, 308 66 Z" />
+   <path id="TextArt1-shape8" d="M322 65 L321 65 C319 65, 318 65, 317 66 C317 66, 317 67, 317 67 C317 68, 317 69, 317 70 C318 71, 318 71, 317 71 C317 71, 318 70, 319 69 C320 67, 321 66, 322 65 Z" />
+   <path id="TextArt1-shape9" d="M299 98 C300 98, 303 98, 306 98 C310 98, 314 97, 317 95 C320 93, 322 90, 322 86 C322 85, 322 83, 322 82 C320 86, 317 90, 313 93 C308 96, 303 98, 299 98 Z" />
+   <path id="TextArt1-shape10" d="M345 104 C341 104, 338 102, 338 99 C338 97, 340 94, 345 89 C350 80, 355 72, 361 66 C361 66, 361 67, 361 67 C360 66, 360 66, 361 67 C360 67, 358 67, 356 69 C354 70, 351 71, 348 72 L346 69 C350 66, 354 64, 357 62 C361 60, 364 59, 367 59 C371 59, 373 60, 373 64 C373 66, 369 71, 362 81 C354 90, 351 95, 351 96 C351 96, 351 96, 351 96 C352 96, 354 95, 356 93 C357 93, 360 92, 363 89 L365 93 C362 96, 359 98, 356 100 C352 103, 348 104, 345 104 Z" />
+   <path id="TextArt1-shape11" d="M383 33 C387 33, 389 34, 389 37 C389 39, 388 40, 387 42 C385 44, 383 44, 382 44 C378 44, 376 43, 376 40 C376 38, 377 36, 378 35 C380 34, 382 33, 383 33 Z" />
+   <path id="TextArt1-shape12" d="M367 103 C374 93, 381 85, 385 80 C390 72, 392 68, 393 67 L393 67 C392 67, 391 67, 391 68 C389 69, 386 70, 382 73 L379 69 C382 67, 385 65, 389 63 C393 60, 397 59, 400 59 C403 59, 405 61, 405 63 C405 65, 405 67, 404 69 C403 69, 402 70, 400 71 C403 67, 407 65, 410 63 C416 60, 421 58, 427 58 C429 58, 432 59, 435 61 C437 62, 437 64, 437 67 C437 71, 433 76, 423 83 C413 90, 409 94, 409 97 C409 97, 409 98, 409 98 C410 98, 412 97, 415 97 C417 96, 419 96, 420 96 C421 96, 423 96, 425 97 L426 100 L425 103 C423 104, 421 104, 420 104 C417 104, 412 104, 407 104 C401 104, 398 103, 397 103 L396 100 C396 97, 400 92, 410 85 C419 78, 425 72, 425 69 C425 69, 424 68, 423 67 C423 67, 421 66, 420 66 C412 66, 402 73, 391 86 C391 88, 386 93, 380 103 Z" />
+   <path id="TextArt1-shape13" d="M479 96 C479 96, 479 96, 479 96 C480 96, 481 96, 483 95 C485 93, 488 91, 491 90 L493 94 C490 96, 487 99, 483 100 C479 103, 475 104, 472 104 C468 104, 465 103, 465 100 C465 99, 466 97, 466 96 C467 95, 468 94, 468 94 C467 97, 465 99, 462 100 C457 103, 454 104, 450 104 C446 104, 444 103, 442 102 C440 100, 439 98, 439 95 C439 86, 445 78, 456 70 C468 62, 479 58, 489 58 C492 58, 495 59, 499 59 C501 60, 503 62, 503 64 L502 67 L499 68 C498 68, 495 67, 490 66 C487 65, 485 65, 483 65 C477 65, 470 68, 463 74 C455 80, 452 86, 452 92 C452 93, 453 94, 453 94 C454 95, 455 95, 455 95 C460 95, 466 92, 473 85 C477 81, 483 75, 487 68 L497 68 C493 74, 491 79, 487 83 C482 91, 479 95, 479 96 Z" />
+   <path id="TextArt1-shape14" d="M639 34 C646 34, 650 35, 656 37 C660 40, 664 44, 666 49 L660 51 C658 47, 655 44, 651 42 C648 40, 644 39, 639 39 L637 39 C646 46, 651 50, 653 51 C658 58, 661 64, 661 70 C661 81, 656 89, 644 96 C634 102, 622 105, 610 105 C599 105, 589 103, 581 98 C572 93, 566 86, 566 77 C566 70, 569 65, 575 60 C580 56, 587 54, 595 54 C601 54, 606 55, 610 57 C610 49, 613 43, 621 39 C619 36, 618 32, 618 28 C618 20, 622 13, 632 7 C640 3, 650 0, 660 0 C667 0, 674 2, 679 5 C685 8, 688 12, 688 18 C688 23, 686 28, 681 31 C676 34, 671 35, 665 35 C661 35, 658 35, 653 33 L655 29 L662 29 C666 29, 669 28, 672 27 C674 25, 676 23, 676 19 C676 15, 674 12, 669 10 C665 7, 660 6, 655 6 C649 6, 642 8, 637 12 C631 15, 629 20, 629 25 C629 27, 629 28, 630 30 C630 32, 632 33, 633 34 C634 34, 635 34, 636 34 C637 34, 639 34, 639 34 Z" />
+   <path id="TextArt1-shape15" d="M616 59 C618 60, 620 62, 621 63 C622 65, 623 67, 623 69 L622 73 L618 75 C614 75, 612 73, 611 70 C610 69, 610 67, 609 64 C606 61, 601 59, 594 59 C590 59, 585 60, 582 63 C579 67, 577 70, 577 75 C577 82, 581 88, 587 93 C594 97, 603 100, 612 100 C621 100, 630 97, 637 93 C645 88, 649 82, 649 74 C649 70, 646 64, 639 57 C637 54, 631 49, 625 43 C622 44, 620 47, 619 50 C617 53, 616 56, 616 59 Z" />
+   <path id="TextArt1-shape16" d="M704 78 L702 84 L692 84 L676 94 C679 93, 683 92, 687 92 C691 92, 694 92, 697 94 C701 95, 702 97, 702 100 C702 101, 702 102, 701 103 C700 104, 698 104, 697 104 C695 104, 694 103, 690 101 C686 99, 683 99, 680 99 C677 99, 674 99, 671 101 C668 103, 667 104, 665 105 L661 104 L660 101 C660 100, 664 96, 671 91 C676 87, 680 85, 684 84 L676 84 L677 78 L688 78 L701 69 C702 69, 701 69, 698 69 C696 70, 695 70, 693 70 C688 70, 685 69, 683 68 C681 67, 679 65, 679 63 C679 61, 681 59, 685 59 C689 61, 692 62, 693 63 C695 63, 696 63, 699 63 C702 63, 704 63, 704 62 C708 61, 711 59, 713 59 L714 60 L715 62 C715 64, 713 67, 706 72 C703 75, 699 77, 696 78 Z" />
+   <path id="TextArt1-shape17" d="M754 96 C754 96, 754 96, 754 96 C755 96, 756 96, 759 95 C760 93, 763 91, 766 90 L768 94 C765 96, 762 99, 759 100 C754 103, 750 104, 747 104 C743 104, 741 103, 741 100 C741 99, 741 97, 741 96 C742 95, 743 94, 744 94 C742 97, 741 99, 738 100 C733 103, 729 104, 725 104 C722 104, 719 103, 717 102 C715 100, 714 98, 714 95 C714 86, 720 78, 731 70 C743 62, 754 58, 765 58 C768 58, 770 59, 774 59 C777 60, 779 62, 779 64 L777 67 L774 68 C773 68, 770 67, 765 66 C762 65, 760 65, 759 65 C752 65, 745 68, 738 74 C731 80, 727 86, 727 92 C727 93, 728 94, 728 94 C729 95, 730 95, 731 95 C735 95, 741 92, 748 85 C753 81, 758 75, 762 68 L772 68 C768 74, 766 79, 762 83 C757 91, 754 95, 754 96 Z" />
+   <path id="TextArt1-shape18" d="M816 66 C820 64, 823 62, 825 61 C829 59, 832 58, 835 58 C838 58, 842 59, 843 62 C845 64, 847 66, 847 69 C847 78, 841 87, 828 94 C816 101, 805 104, 793 104 C788 104, 784 104, 780 103 C775 102, 771 100, 771 96 L773 94 L777 92 C779 93, 781 93, 783 94 C787 94, 794 87, 802 73 C814 51, 823 38, 828 32 C841 17, 855 9, 871 9 C875 9, 878 10, 880 11 C883 11, 885 13, 887 16 L885 20 L881 21 C879 20, 876 19, 872 18 C869 17, 866 16, 864 16 C856 16, 848 22, 839 33 C831 46, 823 58, 814 70 C805 85, 796 94, 788 97 C792 97, 796 98, 801 98 C808 98, 815 95, 823 89 C830 83, 833 77, 833 71 C833 71, 833 70, 833 70 C833 69, 833 69, 832 68 L829 67 C826 67, 823 68, 819 69 Z" />
+   <path id="TextArt1-shape19" d="M862 105 C857 105, 854 103, 851 101 C849 99, 848 96, 848 92 C848 84, 853 76, 863 69 C873 62, 883 58, 893 58 C895 58, 897 59, 899 59 C901 60, 902 61, 902 63 C902 66, 900 67, 897 67 C895 67, 893 67, 890 66 C888 66, 886 65, 885 65 C879 65, 873 68, 869 74 C863 80, 860 85, 860 91 C860 93, 860 95, 861 96 C862 97, 864 97, 866 97 C870 97, 875 95, 879 91 C884 87, 887 82, 887 78 C887 78, 886 76, 886 75 C885 73, 885 72, 885 71 C885 70, 885 69, 886 68 C887 67, 888 67, 889 67 C892 67, 894 68, 895 70 C896 71, 896 73, 896 75 C896 81, 892 88, 885 95 C877 101, 869 105, 862 105" />
+</defs>
+<clipPath id="TextArt1-clippath0">
+   <use xlink:href="#TextArt1-shape0"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape0" data-href="#TextArt1-shape0" clip-path="url(#TextArt1-clippath0)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath1">
+   <use xlink:href="#TextArt1-shape1"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape1" data-href="#TextArt1-shape1" clip-path="url(#TextArt1-clippath1)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath2">
+   <use xlink:href="#TextArt1-shape2"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape2" data-href="#TextArt1-shape2" clip-path="url(#TextArt1-clippath2)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath3">
+   <use xlink:href="#TextArt1-shape3"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape3" data-href="#TextArt1-shape3" clip-path="url(#TextArt1-clippath3)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath4">
+   <use xlink:href="#TextArt1-shape4"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape4" data-href="#TextArt1-shape4" clip-path="url(#TextArt1-clippath4)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath5">
+   <use xlink:href="#TextArt1-shape5"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape5" data-href="#TextArt1-shape5" clip-path="url(#TextArt1-clippath5)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath6">
+   <use xlink:href="#TextArt1-shape6"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape6" data-href="#TextArt1-shape6" clip-path="url(#TextArt1-clippath6)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath7">
+   <use xlink:href="#TextArt1-shape7"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape7" data-href="#TextArt1-shape7" clip-path="url(#TextArt1-clippath7)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath8">
+   <use xlink:href="#TextArt1-shape8"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape8" data-href="#TextArt1-shape8" clip-path="url(#TextArt1-clippath8)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath9">
+   <use xlink:href="#TextArt1-shape9"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape9" data-href="#TextArt1-shape9" clip-path="url(#TextArt1-clippath9)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath10">
+   <use xlink:href="#TextArt1-shape10"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape10" data-href="#TextArt1-shape10" clip-path="url(#TextArt1-clippath10)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath11">
+   <use xlink:href="#TextArt1-shape11"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape11" data-href="#TextArt1-shape11" clip-path="url(#TextArt1-clippath11)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath12">
+   <use xlink:href="#TextArt1-shape12"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape12" data-href="#TextArt1-shape12" clip-path="url(#TextArt1-clippath12)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath13">
+   <use xlink:href="#TextArt1-shape13"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape13" data-href="#TextArt1-shape13" clip-path="url(#TextArt1-clippath13)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath14">
+   <use xlink:href="#TextArt1-shape14"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape14" data-href="#TextArt1-shape14" clip-path="url(#TextArt1-clippath14)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath15">
+   <use xlink:href="#TextArt1-shape15"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape15" data-href="#TextArt1-shape15" clip-path="url(#TextArt1-clippath15)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath16">
+   <use xlink:href="#TextArt1-shape16"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape16" data-href="#TextArt1-shape16" clip-path="url(#TextArt1-clippath16)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath17">
+   <use xlink:href="#TextArt1-shape17"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape17" data-href="#TextArt1-shape17" clip-path="url(#TextArt1-clippath17)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath18">
+   <use xlink:href="#TextArt1-shape18"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape18" data-href="#TextArt1-shape18" clip-path="url(#TextArt1-clippath18)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+<clipPath id="TextArt1-clippath19">
+   <use xlink:href="#TextArt1-shape19"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape19" data-href="#TextArt1-shape19" clip-path="url(#TextArt1-clippath19)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+</svg>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1-overlay"></div>
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Image1">
+<img src="images/Christina.jpg" id="Image1" alt="" title="600x400">
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Text1">
+<span style="color:#FFFFFF;">My journey from a small town art school through the United States into Asia.<br><br>I consider myself lucky, having grown up with famous wax-resist artist, Kinga Raffai, as my art teacher from an early age. Later on during college I was taught by a well-known Iren Molnar, a specialist in aquarelle works.<br><br>Once finishing my first college degree, I took my chances with teaching for a year before applying to University in the States.<br><br>The US, known to be quite melting pot of diversity, tremendously impacted my cultural growth, later aiding me in being more open. Four years later having moved back home to Budapest, I took a prestigious job at a famous hotel chain, with my new found skills.<br><br>During the day I organized event then would go home at night to use what little time I had left to dedicated myself to aquarelle painting. Years passed before I realized that my true passion lied in art not in business. Life continued to go on. I got married and gave birth to my two daughters. Soon my husband's carrier directed us to Asia, where the next 10 years of our lives unfolded. Having travelled through countries from the middle to the Far East, I surrounded myself with the colorful cultures of the continent. My experiences affected my art in ways which are crucial to how I work today.<br><br>The art style I work with originates from the island of Java in Indonesia dating back 2000 years. I view it as my mission to spread and teach this rare painting style to the public, so that everyone can admire the differences compared to more traditional techniques. Trying the style out is said to be the &quot;meditation of the soul&quot; by Indonesian artists.<br><br>In our studios, workshops are held twice a month where students can learn the basics and the details of creating a wax resist batik painting.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_contact">
+<div id="contact">
+<div class="col-1">
+<label for="Image1" id="contactLabel1">Follow Me</label>
+<div id="wb_contactIcon2">
+<a href="https://www.facebook.com/christina.s.szabo"><div id="contactIcon2"><i class="fa fa-facebook"></i></div></a>
+</div>
+<div id="wb_contactIcon3">
+<a href="./index.html"><div id="contactIcon3"><i class="fa fa-instagram"></i></div></a>
+</div>
+<label for="Image1" id="contactLabel4">Address</label>
+<div id="wb_Text2">
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;">Nap utca 52/7<span style="color:#FFFFFF;"><br /></span>Szentendre</p>
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;">2000</p>
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;">Phone: +36 20 427 1007</p>
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;"><a href="mailto:Email: christina_szabo@hotmail.com">Email: christina_szabo@hotmail.com</a></p>
+</div>
+</div>
+<div class="col-2">
+<label for="Image1" id="contactLabel3">Contact Me</label>
+<input type="text" id="contactName" name="name" value="" spellcheck="false" placeholder="Name">
+<input type="text" id="contactEmail" name="email" value="" spellcheck="false" placeholder="Email">
+<textarea name="message" id="contactMessage" rows="2" cols="41" autocomplete="off" spellcheck="false" placeholder="Message"></textarea>
+<input type="submit" id="contactButton" name="" value="Send">
+</div>
+</div>
+</div>
+</body>
+</html>

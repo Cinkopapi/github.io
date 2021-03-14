@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MyWorks</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Christina.css" rel="stylesheet">
+<link href="MyWorks.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<link rel="stylesheet" href="magnificpopup/magnific-popup.css">
+<script src="magnificpopup/jquery.magnific-popup.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#floatingHeader']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_floatingHeader').offset().top }, 600, 'easeInSine');
+   });
+   $("a[href*='#header']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
+   });
+   $("a[data-rel='gallery']").attr('rel', 'gallery');
+   $("#gallery").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
+   $("a[href*='#contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top }, 600, 'easeOutExpo');
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_floatingHeader">
+<div id="floatingHeader">
+<div class="row">
+<div class="col-1">
+<div id="wb_headerIcon1">
+<a href="https://www.facebook.com/christina.s.szabo" target="_blank"><div id="headerIcon1"><i class="fa fa-facebook-square"></i></div></a>
+</div>
+<div id="wb_headerIcon2">
+<a href="https://www.youtube.com/user/FrankSinatra" target="_blank"><div id="headerIcon2"><i class="fa fa-instagram"></i></div></a>
+</div>
+</div>
+<div class="col-2">
+</div>
+<div class="col-3">
+<div id="wb_headerBreadcrumb">
+<ul id="headerBreadcrumb">
+<li><a href="http://">Magyar</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_header">
+<div id="header">
+<div class="col-1">
+<div id="wb_headerLogo">
+<ul id="headerLogo">
+<li><a href="./index.html#LayoutGrid2">&nbsp; BATIK</a></li>
+</ul>
+
+</div>
+<div id="wb_IconFont7">
+<a href="./index.html#LayoutGrid5"><div id="IconFont7"><i class="fa fa-pagelines"></i></div></a>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_headerMenu">
+<label class="toggle" for="headerMenu-submenu" id="headerMenu-title"><span id="headerMenu-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="headerMenu-submenu">
+<ul class="headerMenu" id="headerMenu" role="menu">
+<li><a role="menuitem" href="./index.html">Home</a></li>
+<li><a role="menuitem" href="./AboutMe.html">About&nbsp;me</a></li>
+<li><a role="menuitem" href="./MyWorks.html" title="My Works" class="active">My&nbsp;works</a></li>
+<li>
+<label for="headerMenu-submenu-0" class="toggle">Happenings<b class="arrow-down"></b></label>
+<a role="menuitem" href="./Happenings.html">Happenings<b class="arrow-down"></b></a>
+<input type="checkbox" id="headerMenu-submenu-0">
+<ul role="menu">
+<li><a role="menuitem" href="./Happenings.html">Workshops</a></li>
+<li><a role="menuitem" href="./Happenings.html#LayoutGrid4">Exhibitions</a></li>
+<li><a role="menuitem" href="./Happenings.html#LayoutGrid6">Travels</a></li>
+</ul>
+</li>
+<li><a role="menuitem" href="./Contact.html">Contacts</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_galleryGrid">
+<div id="galleryGrid-overlay"></div>
+<div id="galleryGrid">
+<div class="row">
+<div class="col-1">
+<div id="wb_galleryHeading1">
+<h1 id="galleryHeading1">All My Paintings</h1>
+</div>
+<div id="wb_galleryHeading2">
+<h1 id="galleryHeading2">Check out these great pictures!</h1>
+</div>
+<div id="wb_gallery">
+<div id="gallery">
+   <div class="thumbnails">
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number1.png" data-rel=""><img alt="" src="images/number1.png" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number2.png" data-rel=""><img alt="" src="images/number2.png" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number3.png" data-rel=""><img alt="" src="images/number3.png" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number4.png" data-rel=""><img alt="" src="images/number4.png" class="image"></a>
+</div>
+      </div>
+      <div class="clearfix visible-col4"></div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number5.png" data-rel=""><img alt="" src="images/number5.png" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number6.png" data-rel=""><img alt="" src="images/number6.png" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number7.png" data-rel=""><img alt="" src="images/number7.png" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number8.png" data-rel=""><img alt="" src="images/number8.png" class="image"></a>
+</div>
+      </div>
+      <div class="clearfix visible-col4"></div>
+   </div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_contact">
+<div id="contact">
+<div class="col-1">
+<label for="galleryHeading2" id="contactLabel1">Follow Me</label>
+<div id="wb_contactIcon2">
+<a href="https://www.facebook.com/christina.s.szabo"><div id="contactIcon2"><i class="fa fa-facebook"></i></div></a>
+</div>
+<div id="wb_contactIcon3">
+<a href="./index.html"><div id="contactIcon3"><i class="fa fa-instagram"></i></div></a>
+</div>
+<label for="galleryHeading2" id="contactLabel4">Address</label>
+<div id="wb_Text1">
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;">Nap utca 52/7<span style="color:#FFFFFF;"><br /></span>Szentendre</p>
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;">2000</p>
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;">Phone: +36 20 427 1007</p>
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;"><a href="mailto:Email: christina_szabo@hotmail.com">Email: christina_szabo@hotmail.com</a></p>
+</div>
+</div>
+<div class="col-2">
+<label for="galleryHeading2" id="contactLabel3">Contact Me</label>
+<input type="text" id="contactName" name="name" value="" spellcheck="false" placeholder="Name">
+<input type="text" id="contactEmail" name="email" value="" spellcheck="false" placeholder="Email">
+<textarea name="message" id="contactMessage" rows="2" cols="41" autocomplete="off" spellcheck="false" placeholder="Message"></textarea>
+<input type="submit" id="contactButton" name="" value="Send">
+</div>
+</div>
+</div>
+</body>
+</html>

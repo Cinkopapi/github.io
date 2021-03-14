@@ -1,0 +1,671 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Christina.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.animatesvg.min.js"></script>
+<script src="util.min.js"></script>
+<script src="carousel.min.js"></script>
+<script src="scrollspy.min.js"></script>
+<script src="wb.photocollage.min.js"></script>
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+<script src="fancybox/jquery.easing-1.3.pack.js"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script src="wwb16.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#reviewsImage1').addClass('visibility-hidden');
+   $('#portfolio-image2').addClass('visibility-hidden');
+   $("a[href*='#floatingHeader']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_floatingHeader').offset().top }, 600, 'easeInSine');
+   });
+   $("a[href*='#LayoutGrid8']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid8').offset().top }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#welcome']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_welcome').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#LayoutGrid2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid2').offset().top-50 }, 600, 'easeInQuad');
+   });
+   $("#TextArt1").animatesvg(
+   {
+      delay: 100,
+      duration: 100,
+      easing: 'linear'
+   });
+   $("#TextArt1").animatesvg('animate');
+   $("a[href*='#LayoutGrid1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid1').offset().top }, 600, 'linear');
+   });
+   $("a[href*='#coffee']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#coffee').offset().top }, 600, 'easeOutExpo');
+   });
+   $("a[href*='#LayoutGrid5']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid5').offset().top }, 600, 'linear');
+   });
+   $("a[href*='#galleryLayoutGrid']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_galleryLayoutGrid').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   function onScrollgalleryLayoutGrid()
+   {
+      var $obj = $("#wb_galleryLayoutGrid");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('reviewsImage1', 'animate-fade-in-up', 0, 1000);
+         AnimateCss('portfolio-image2', 'animate-fade-in-up', 500, 1000);
+      }
+   }
+   onScrollgalleryLayoutGrid();
+   $(window).scroll(function(event)
+   {
+      onScrollgalleryLayoutGrid();
+   });
+   $("#Carousel1").bootstrapcarousel({interval:3000, pause: false});
+   $("a[href*='#contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top }, 600, 'easeOutExpo');
+   });
+   $("a[data-rel='galleryCollage']").attr('rel', 'galleryCollage');
+   $("a[rel^='galleryCollage']").fancybox({});
+   $("#galleryCollage").photocollage({ effect: 'css', duration: 600, padding: 20, lazyload: true, matrix: '1,1,1,2,0,1,2,0,0,0,1,0,0,1,1,2,0,1,2,0,0,0,1,0,0' });
+});
+</script>
+<!-- Insert Google Analytics code here -->
+</head>
+<body data-spy="scroll">
+<div id="wb_floatingHeader">
+<div id="floatingHeader">
+<div class="row">
+<div class="col-1">
+<div id="wb_headerIcon1">
+<a href="https://www.facebook.com/christina.s.szabo" target="_blank"><div id="headerIcon1"><i class="fa fa-facebook-square"></i></div></a>
+</div>
+<div id="wb_headerIcon2">
+<a href="https://www.instagram.com/christinaszabopaintings" target="_blank"><div id="headerIcon2"><i class="fa fa-instagram"></i></div></a>
+</div>
+</div>
+<div class="col-2">
+</div>
+<div class="col-3">
+<div id="wb_headerBreadcrumb">
+<ul id="headerBreadcrumb">
+<li><a href="http://">Magyar</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid8">
+<header id="LayoutGrid8">
+<div class="col-1">
+<div id="wb_headerLogo">
+<ul id="headerLogo">
+<li><a href="./Happenings.html#LayoutGrid2">&nbsp; BATIK</a></li>
+</ul>
+
+</div>
+<div id="wb_IconFont1">
+<a href="./index.html#LayoutGrid5"><div id="IconFont1"><i class="fa fa-pagelines"></i></div></a>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_ResponsiveMenu1">
+<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title"><span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu1-submenu">
+<ul class="nav ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li class="nav"><a role="menuitem" href="./index.html" class="active">Home</a></li>
+<li class="nav"><a role="menuitem" href="./AboutMe.html" class="nav-link">About&nbsp;me</a></li>
+<li class="nav"><a role="menuitem" href="./MyWorks.html" class="nav-link">My&nbsp;works</a></li>
+<li class="nav">
+<label for="ResponsiveMenu1-submenu-0" class="toggle">Happenings<b class="arrow-down"></b></label>
+<a role="menuitem" href="./Happenings.html" class="nav-link">Happenings<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-0">
+<ul role="menu">
+<li class="nav"><a role="menuitem" href="./Happenings.html#LayoutGridWorkshop" class="nav-link">Workshops</a></li>
+<li class="nav"><a role="menuitem" href="./Happenings.html#LayoutGrid4" class="nav-link">Exhibitions</a></li>
+<li class="nav"><a role="menuitem" href="./Happenings.html#LayoutGrid6" class="nav-link">Travels</a></li>
+</ul>
+</li>
+<li class="nav"><a role="menuitem" href="./Contact.html" class="nav-link">Contacts</a></li>
+</ul>
+
+</div>
+</div>
+</header>
+</div>
+<div id="wb_welcome">
+<div id="welcome-overlay"></div>
+<div id="welcome">
+<div class="col-1">
+<div id="wb_TextArt1">
+<svg id="TextArt1" height="100%" width="100%" viewBox="0 0 970 413" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+   <path id="TextArt1-shape0" d="M99 106 C99 113, 92 119, 77 125 C65 130, 55 133, 48 133 C36 133, 26 128, 16 118 C6 108, 0 95, 0 79 C0 74, 1 69, 2 66 C4 62, 6 58, 8 55 C15 38, 25 26, 36 18 C48 9, 61 5, 76 5 C77 5, 79 5, 80 5 C81 5, 83 5, 84 5 C88 5, 92 5, 94 6 C98 9, 100 13, 100 19 C100 23, 100 26, 98 27 C97 29, 95 30, 92 32 C87 30, 82 28, 78 27 C73 26, 68 25, 65 25 C52 25, 42 28, 34 34 C24 42, 19 53, 19 67 C19 78, 24 89, 32 99 C41 110, 49 115, 58 115 C60 115, 61 115, 63 114 L96 102Z" />
+   <path id="TextArt1-shape1" d="M156 60 C158 60, 159 61, 161 63 C162 65, 162 67, 162 69 C162 74, 162 79, 161 87 C158 101, 157 110, 157 114 L158 117 L160 117 L162 120 L161 126 C160 126, 158 128, 154 130 C150 133, 148 134, 147 135 C141 134, 137 129, 137 121 C137 117, 138 112, 139 106 C142 92, 144 84, 144 83 L144 83 C141 86, 137 92, 132 100 C129 106, 126 113, 122 122 C118 125, 114 128, 109 129 L107 126 L106 123 C106 121, 107 117, 107 113 C109 109, 110 103, 112 96 C114 89, 116 80, 119 71 C120 69, 124 55, 131 31 C135 21, 138 14, 140 11 C142 7, 147 4, 154 1 L157 3 C158 4, 158 6, 158 7 C158 9, 156 17, 152 30 C150 37, 146 48, 142 64 C139 71, 136 79, 133 85 C136 79, 140 74, 144 70 C148 64, 152 60, 156 60 Z" />
+   <path id="TextArt1-shape2" d="M178 84 C176 84, 175 83, 173 83 C172 82, 171 80, 171 78 C171 75, 174 72, 179 69 C180 68, 182 68, 185 67 C185 67, 186 66, 187 66 C188 65, 190 64, 191 64 C193 64, 195 66, 195 68 C196 70, 196 73, 196 76 C196 79, 196 83, 195 87 C194 92, 194 94, 194 94 L194 94 C193 94, 193 93, 195 90 C198 85, 199 82, 199 82 C199 81, 199 80, 198 79 C198 77, 198 75, 198 74 C198 69, 199 65, 200 62 C201 60, 203 57, 206 55 C207 54, 208 53, 209 52 C211 51, 212 51, 213 51 C215 51, 217 52, 218 55 C220 59, 220 62, 220 64 C220 64, 220 66, 218 69 C217 72, 217 75, 217 77 C217 78, 217 79, 218 81 C219 82, 220 85, 220 89 C220 92, 219 93, 216 95 C213 96, 211 97, 209 97 C208 97, 206 97, 205 96 C204 94, 204 93, 204 92 C201 101, 198 109, 194 115 C189 126, 184 132, 179 132 C177 132, 175 130, 172 127 C170 123, 168 120, 168 117 C170 115, 172 113, 173 112 C175 108, 177 106, 177 104 C178 102, 178 100, 178 97 C179 95, 179 92, 179 90 L179 84Z" />
+   <path id="TextArt1-shape3" d="M234 53 C234 51, 234 50, 235 49 C235 48, 236 47, 236 46 L238 42 C239 40, 241 39, 243 38 C247 36, 249 35, 251 35 C255 35, 257 38, 257 42 C257 43, 256 45, 256 46 C255 48, 255 49, 255 49 C254 52, 253 54, 252 55 C252 56, 250 57, 248 57 C245 58, 243 58, 242 59 C241 59, 240 60, 238 60 C237 60, 236 59, 235 57 C234 56, 234 54, 234 53 Z" />
+   <path id="TextArt1-shape4" d="M252 67 C252 68, 250 75, 246 85 C242 95, 240 102, 240 107 C240 109, 240 110, 241 111 C241 111, 242 112, 242 112 C242 112, 244 111, 246 109 C249 107, 250 106, 251 106 C254 106, 255 108, 255 111 C255 115, 253 119, 248 123 C245 125, 242 126, 239 128 C238 128, 236 129, 234 130 C232 131, 230 132, 228 132 C225 132, 223 130, 222 128 C220 125, 219 121, 219 118 C219 115, 219 113, 219 112 C220 110, 220 109, 221 106 L230 75 C231 72, 232 70, 233 69 C233 68, 235 66, 237 66 C240 65, 242 64, 242 62 C243 62, 243 62, 245 61 C246 60, 247 60, 247 60 C249 60, 250 60, 251 62 C252 63, 252 65, 252 67 Z" />
+   <path id="TextArt1-shape5" d="M290 76 C293 81, 295 85, 297 90 C299 95, 300 99, 300 103 C300 112, 296 119, 289 125 C283 130, 277 132, 270 132 C267 132, 264 132, 262 130 C258 128, 256 126, 256 121 C256 118, 258 115, 260 110 C262 106, 265 104, 268 104 C270 104, 273 106, 275 110 C277 114, 278 116, 279 116 C279 116, 279 116, 279 115 C279 108, 278 102, 274 96 C271 89, 269 85, 269 83 C269 78, 273 72, 280 64 C286 57, 291 53, 295 53 C297 53, 299 54, 301 55 C302 56, 303 58, 303 60 C303 64, 302 68, 302 71 C301 75, 299 77, 296 77 C295 77, 293 77, 292 76 C291 75, 290 75, 290 73 C290 74, 290 75, 290 76 Z" />
+   <path id="TextArt1-shape6" d="M328 106 C328 108, 328 109, 329 110 C330 111, 331 112, 333 112 C335 112, 337 111, 339 111 C342 109, 344 108, 344 108 L347 110 L349 113 C347 119, 343 123, 338 127 C332 130, 327 132, 322 132 C319 132, 315 130, 312 125 C309 121, 307 115, 307 109 C307 107, 308 103, 310 98 C311 94, 313 91, 314 88 C314 88, 313 88, 312 88 C311 88, 309 87, 309 85 C309 82, 311 79, 314 76 C317 73, 319 71, 320 71 C320 70, 320 70, 320 68 C320 68, 321 67, 321 66 C322 62, 324 58, 326 53 C329 47, 331 42, 333 41 C333 41, 334 40, 336 40 C337 39, 338 39, 339 38 C340 38, 340 37, 341 37 C342 36, 343 36, 344 36 C346 36, 348 37, 348 39 C349 41, 349 43, 349 46 C349 47, 349 48, 348 50 C347 51, 347 53, 346 54 L339 69 C340 69, 341 69, 343 70 C345 70, 346 70, 348 71 L349 75 C349 78, 348 81, 345 84 C342 87, 340 89, 338 89 L332 89 C331 93, 330 96, 329 99 C328 102, 328 104, 328 106 Z" />
+   <path id="TextArt1-shape7" d="M367 53 C367 51, 367 50, 367 49 C368 48, 368 47, 369 46 L371 42 C372 40, 374 39, 377 38 C380 36, 382 35, 384 35 C388 35, 389 38, 389 42 C389 43, 389 45, 389 46 C388 48, 388 49, 388 49 C387 52, 386 54, 385 55 C384 56, 383 57, 381 57 C378 58, 377 58, 375 59 C374 59, 372 60, 371 60 C369 60, 368 59, 368 57 C367 56, 367 54, 367 53 Z" />
+   <path id="TextArt1-shape8" d="M385 67 C385 68, 383 75, 378 85 C375 95, 373 102, 373 107 C373 109, 373 110, 374 111 C374 111, 374 112, 375 112 C376 112, 378 111, 379 109 C381 107, 383 106, 384 106 C387 106, 388 108, 388 111 C388 115, 385 119, 380 123 C378 125, 375 126, 371 128 C370 128, 369 129, 367 130 C365 131, 363 132, 361 132 C359 132, 357 130, 355 128 C353 125, 352 121, 352 118 C352 115, 352 113, 352 112 C352 110, 353 109, 354 106 L363 75 C364 72, 364 70, 365 69 C366 68, 368 66, 370 66 C373 65, 375 64, 376 62 C376 62, 377 62, 378 61 C379 60, 380 60, 380 60 C382 60, 383 60, 384 62 C384 63, 385 65, 385 67 Z" />
+   <path id="TextArt1-shape9" d="M443 59 C446 59, 448 61, 449 64 C450 66, 451 69, 451 73 C451 78, 450 84, 448 93 C446 101, 445 108, 445 111 C445 112, 445 113, 446 114 C447 116, 448 117, 448 118 C448 121, 445 123, 440 127 C436 130, 433 132, 431 132 C428 132, 426 130, 425 127 C425 123, 424 120, 424 116 C424 112, 425 108, 426 103 C430 90, 432 83, 432 83 L432 83 C432 83, 430 87, 425 96 C419 106, 413 116, 407 127 C403 129, 400 130, 398 132 C397 131, 396 130, 394 128 C393 126, 392 125, 392 123 C392 121, 394 111, 398 94 C401 78, 404 68, 406 66 C406 65, 408 64, 411 62 C414 60, 416 59, 416 59 C417 59, 418 60, 419 60 C421 61, 422 62, 423 64 C423 65, 424 66, 424 67 C424 69, 423 72, 422 76 C419 81, 418 84, 418 84 L414 97 C417 90, 419 83, 424 77 C432 65, 438 59, 443 59 Z" />
+   <path id="TextArt1-shape10" d="M461 132 C458 132, 456 130, 456 127 C454 124, 454 120, 454 117 C454 107, 460 95, 474 80 C487 66, 497 59, 506 59 C509 59, 512 60, 514 61 C519 63, 521 66, 521 69 C521 74, 519 82, 516 94 C514 105, 512 114, 512 121 C512 121, 512 123, 513 125 C514 127, 514 128, 514 130 C514 131, 513 133, 512 134 C511 136, 509 136, 508 136 C507 136, 505 136, 503 136 C501 136, 500 136, 499 136 C497 136, 495 134, 495 129 C494 125, 494 120, 494 115 C494 113, 494 112, 494 111 C494 109, 494 109, 494 109 C492 116, 487 121, 480 126 C474 130, 467 132, 461 132 Z" />
+   <path id="TextArt1-shape11" d="M476 114 C476 114, 476 114, 475 114 C479 114, 485 108, 493 96 C501 85, 505 77, 505 72 C505 73, 505 73, 505 73 C501 73, 495 79, 488 89 C480 100, 476 109, 476 114 Z" />
+   <path id="TextArt1-shape12" d="M607 121 C607 124, 605 128, 601 131 C600 132, 599 134, 597 135 L597 134 C604 133, 613 131, 626 128 C643 124, 656 119, 667 115 C680 109, 688 103, 688 98 C688 95, 685 92, 678 91 C673 89, 667 89, 659 89 C656 89, 654 89, 651 89 C650 89, 647 89, 644 89 C636 89, 630 88, 627 85 C624 82, 621 79, 618 76 C615 76, 612 75, 611 75 C607 73, 605 70, 605 65 C605 54, 611 43, 624 32 C634 23, 648 16, 663 10 C678 3, 689 0, 698 0 C699 0, 700 0, 702 0 C703 1, 704 2, 706 2 L709 10 C708 13, 706 19, 702 25 C698 31, 695 35, 692 36 C690 36, 689 34, 688 33 C688 31, 688 30, 688 28 L685 26 C681 26, 674 27, 665 30 C652 34, 643 37, 635 42 C626 47, 621 52, 621 56 C621 58, 623 60, 627 61 C630 62, 636 63, 642 63 C647 63, 650 63, 653 63 C656 62, 659 62, 662 62 C674 62, 683 63, 689 64 C702 68, 708 76, 708 87 C708 94, 706 100, 701 106 C699 108, 694 112, 688 117 C682 123, 676 128, 671 132 C660 140, 644 147, 623 153 C602 160, 586 163, 573 163 C572 163, 571 162, 570 162 C569 161, 568 160, 567 158 C568 154, 573 146, 585 135 C595 123, 602 118, 604 118 Z" />
+   <path id="TextArt1-shape13" d="M757 110 C758 110, 760 109, 761 108 C763 105, 765 103, 766 103 L769 104 L770 108 C769 111, 766 117, 762 123 C757 131, 753 134, 751 134 C749 134, 747 131, 743 126 C741 123, 739 121, 737 120 C736 120, 734 122, 730 126 C727 128, 724 130, 722 130 C720 130, 719 129, 718 128 C716 127, 716 125, 716 123 C716 117, 718 111, 723 106 C727 101, 733 99, 739 99 C740 99, 742 99, 742 99 C744 96, 746 94, 747 93 C748 90, 749 87, 749 85 C749 83, 748 82, 747 81 C747 80, 746 79, 745 79 C740 79, 736 81, 733 84 C731 87, 727 90, 725 95 C723 95, 722 94, 721 92 C720 91, 719 89, 719 87 C719 82, 724 76, 734 69 C745 63, 752 60, 756 60 C759 60, 763 61, 766 64 C769 66, 770 69, 770 73 C770 79, 766 87, 759 97 C755 101, 752 104, 750 106 C751 107, 752 108, 753 109 C754 110, 755 110, 757 110 Z" />
+   <path id="TextArt1-shape14" d="M780 132 C777 132, 775 130, 774 127 C773 124, 772 120, 772 117 C772 107, 779 95, 792 80 C805 66, 817 59, 825 59 C828 59, 831 60, 834 61 C838 63, 841 66, 841 69 C841 74, 839 82, 836 94 C832 105, 831 114, 831 121 C831 121, 831 123, 832 125 C832 127, 832 128, 833 130 C832 131, 831 133, 830 134 C829 136, 828 136, 826 136 C825 136, 824 136, 823 136 C821 136, 820 136, 819 136 C816 136, 814 134, 814 129 C813 125, 812 120, 812 115 C812 113, 812 112, 812 111 C812 109, 812 109, 813 109 C810 116, 806 121, 800 126 C793 130, 786 132, 780 132 Z" />
+   <path id="TextArt1-shape15" d="M795 114 C795 114, 795 114, 795 114 C798 114, 804 108, 812 96 C821 85, 824 77, 824 72 C824 73, 824 73, 824 73 C821 73, 815 79, 807 89 C799 100, 795 109, 795 114 Z" />
+   <path id="TextArt1-shape16" d="M879 59 C890 59, 896 66, 896 79 C896 88, 894 96, 890 103 C887 109, 883 115, 877 121 C874 124, 871 127, 869 128 C865 132, 863 133, 860 133 C856 133, 852 130, 850 125 C847 119, 846 113, 846 109 C846 103, 848 92, 852 77 C856 62, 860 47, 864 34 C869 20, 873 11, 877 8 C878 7, 879 6, 882 5 C885 3, 886 3, 887 3 C889 3, 890 4, 891 6 C893 8, 893 10, 893 11 C893 13, 893 14, 892 16 C888 23, 885 32, 883 39 C880 47, 877 54, 874 60 C875 59, 877 59, 879 59 Z" />
+   <path id="TextArt1-shape17" d="M865 103 C865 106, 865 109, 866 111 C866 113, 867 113, 868 113 C872 113, 875 110, 877 104 C879 99, 880 94, 880 88 C880 85, 879 83, 878 81 C877 79, 876 79, 874 79 C871 79, 869 81, 867 86 C866 92, 865 98, 865 103 Z" />
+   <path id="TextArt1-shape18" d="M938 53 C941 53, 943 55, 946 60 C949 65, 951 69, 951 72 C951 81, 950 89, 949 97 C947 105, 942 113, 935 120 C927 128, 920 132, 913 132 C909 132, 906 131, 903 128 C900 125, 898 121, 898 116 C898 113, 899 108, 900 103 C901 98, 902 94, 903 90 C906 85, 909 80, 914 74 C920 67, 923 63, 927 62 C927 60, 929 58, 931 56 C934 53, 936 53, 938 53 Z" />
+   <path id="TextArt1-shape19" d="M920 111 C920 113, 920 114, 920 115 C921 116, 921 116, 921 116 C923 116, 926 114, 930 111 C932 106, 935 101, 937 94 C933 90, 930 85, 929 78 C927 81, 925 87, 923 94 C921 101, 920 107, 920 111 Z" />
+   <path id="TextArt1-shape20" d="M221 318 C221 332, 212 344, 196 353 C183 360, 170 364, 158 364 C153 364, 149 363, 145 361 C140 358, 137 353, 137 348 C137 347, 139 341, 143 330 C145 321, 149 309, 155 294 C159 282, 162 276, 162 275 C163 274, 165 271, 169 267 C174 263, 177 261, 178 261 C179 261, 180 262, 181 263 C182 264, 183 265, 183 266 C182 272, 179 280, 174 291 C171 300, 167 309, 164 318 C160 328, 157 334, 157 337 C157 341, 160 344, 164 346 C166 348, 170 349, 174 349 C181 349, 185 347, 191 343 C197 339, 200 333, 200 326 C200 321, 198 317, 195 315 C192 314, 189 313, 184 313 C183 313, 182 313, 179 313 C177 313, 175 313, 174 313 C173 313, 172 313, 171 312 C170 311, 169 310, 169 308 C169 307, 176 299, 189 285 C194 280, 196 275, 196 271 C196 268, 194 265, 189 263 C185 261, 179 260, 170 260 C156 260, 143 263, 129 268 C127 269, 126 270, 125 270 C122 272, 120 273, 120 274 C119 274, 119 275, 118 276 C117 277, 116 278, 115 278 C110 278, 108 275, 107 270 L108 267 C121 258, 133 250, 145 245 C158 240, 171 237, 184 237 C192 237, 200 239, 205 243 C213 247, 216 253, 216 262 C216 269, 213 275, 207 281 C204 287, 198 292, 191 296 C198 296, 204 298, 208 300 C217 304, 221 310, 221 318 Z" />
+   <path id="TextArt1-shape21" d="M232 364 C229 364, 227 362, 226 359 C225 356, 224 353, 224 349 C224 339, 231 327, 244 312 C258 298, 268 291, 278 291 C281 291, 283 292, 286 293 C290 295, 292 298, 292 301 C292 306, 291 314, 288 326 C284 337, 283 346, 283 353 C283 353, 283 355, 283 357 C284 359, 284 360, 284 362 C284 363, 283 365, 282 366 C281 368, 281 368, 279 368 C278 368, 277 368, 275 368 C273 368, 271 368, 271 368 C268 368, 266 366, 265 361 C265 357, 264 352, 264 347 C264 345, 264 344, 264 343 C264 341, 264 341, 264 341 C262 348, 258 353, 252 358 C245 362, 239 364, 232 364 Z" />
+   <path id="TextArt1-shape22" d="M247 346 C247 346, 247 346, 247 346 C250 346, 256 340, 264 328 C273 317, 277 309, 277 304 C277 305, 277 305, 277 305 C273 305, 267 311, 260 321 C251 332, 247 341, 247 346 Z" />
+   <path id="TextArt1-shape23" d="M319 338 C319 340, 320 341, 320 342 C321 343, 322 344, 323 344 C325 344, 327 343, 329 343 C333 341, 335 340, 336 340 L339 342 L339 345 C338 351, 334 356, 328 359 C323 362, 319 364, 314 364 C309 364, 305 362, 302 357 C300 353, 299 347, 299 341 C299 339, 300 335, 301 330 C302 326, 303 323, 304 320 C304 320, 304 320, 303 320 C301 320, 301 319, 300 317 C300 314, 301 311, 304 308 C308 305, 310 303, 310 303 C310 302, 311 302, 311 301 C312 300, 312 299, 312 298 C314 294, 315 290, 317 285 C320 279, 321 274, 323 273 C323 273, 324 272, 326 272 C327 271, 329 271, 329 270 C331 270, 332 269, 332 269 C333 268, 334 268, 335 268 C338 268, 339 269, 339 271 C339 273, 340 275, 340 278 C340 279, 339 280, 339 282 C339 283, 338 285, 337 286 L330 301 C331 301, 333 301, 334 302 C336 302, 337 302, 339 303 L339 307 C339 310, 339 313, 336 316 C334 319, 331 321, 329 321 L323 321 C321 325, 320 328, 320 331 C320 334, 319 336, 319 338 Z" />
+   <path id="TextArt1-shape24" d="M358 285 C358 283, 358 282, 359 281 C359 280, 359 279, 359 278 L361 274 C362 272, 364 271, 368 270 C371 268, 373 268, 375 268 C378 268, 380 270, 380 275 C380 275, 379 277, 379 279 C378 280, 378 281, 378 281 C378 285, 377 286, 376 287 C376 288, 374 289, 372 290 C369 290, 367 290, 366 291 C364 291, 363 292, 361 292 C360 292, 359 291, 359 289 C358 288, 358 286, 358 285 Z" />
+   <path id="TextArt1-shape25" d="M376 299 C376 300, 374 307, 370 317 C365 327, 363 334, 363 340 C363 341, 364 342, 364 343 C364 343, 365 344, 365 344 C366 344, 368 343, 370 341 C373 339, 374 338, 375 338 C378 338, 378 340, 378 343 C378 347, 377 351, 372 355 C369 357, 365 358, 362 360 C361 360, 359 361, 358 362 C356 363, 354 364, 352 364 C349 364, 347 362, 345 360 C343 357, 342 353, 342 350 C342 347, 342 345, 342 344 C343 342, 343 341, 344 338 L354 307 C355 304, 356 302, 357 301 C357 300, 359 299, 360 298 C363 297, 365 296, 366 294 C367 294, 367 294, 369 293 C370 292, 371 292, 371 292 C373 292, 374 292, 375 294 C376 295, 376 297, 376 299 Z" />
+   <path id="TextArt1-shape26" d="M386 365 L383 363 L381 358 C382 356, 382 353, 382 353 C383 351, 383 350, 384 347 L398 298 C399 295, 402 286, 407 271 C412 256, 415 248, 416 247 C417 245, 419 243, 422 241 C425 238, 428 236, 431 235 C433 236, 434 238, 435 239 C436 241, 436 243, 437 245 C437 248, 436 253, 432 262 C429 270, 425 278, 422 287 C417 298, 415 304, 414 307 C417 301, 421 297, 425 294 C432 288, 437 285, 441 285 C445 285, 447 287, 449 291 C450 293, 451 296, 451 300 C451 304, 447 310, 441 319 C435 328, 431 332, 428 332 C427 332, 427 331, 426 331 C426 330, 425 330, 424 330 L423 326 C423 323, 425 320, 428 317 C430 314, 431 312, 431 310 L431 307 L429 307 C427 307, 425 308, 422 310 C420 311, 418 312, 417 313 C418 313, 419 314, 421 315 C423 325, 424 332, 426 338 C429 341, 433 343, 438 343 L440 343 C441 342, 442 341, 443 341 C444 339, 446 338, 447 338 L450 340 C450 341, 451 342, 451 343 C451 347, 447 352, 440 358 C434 362, 429 365, 426 365 C418 365, 414 360, 411 351 C409 345, 407 337, 406 328 C405 333, 404 341, 401 350 C398 357, 394 362, 386 365 Z" />
+   <path id="TextArt1-shape27" d="M500 405 L497 403 L496 400 C500 390, 506 378, 514 365 C521 354, 528 345, 534 336 C534 336, 533 336, 533 336 C532 336, 530 336, 529 336 C527 336, 526 336, 524 336 C523 336, 521 335, 520 334 L517 330 C520 324, 522 321, 525 319 C528 317, 532 316, 535 316 C537 316, 538 316, 540 316 C541 316, 543 316, 543 316 C545 315, 551 306, 561 290 C572 275, 580 263, 585 255 C594 243, 599 236, 602 235 L606 239 C606 241, 606 243, 607 244 C607 250, 606 258, 605 268 C603 288, 602 302, 602 308 L602 319 C602 319, 603 319, 605 319 C606 320, 607 321, 608 322 C608 324, 607 326, 606 328 C604 330, 603 330, 603 330 C603 334, 603 338, 604 344 C605 349, 607 354, 608 359 L606 363 L602 365 C599 365, 596 364, 595 364 C594 364, 592 363, 590 362 C588 357, 587 352, 585 347 C584 342, 583 337, 583 333 C579 333, 575 333, 571 334 C558 335, 551 336, 548 336 C544 343, 540 350, 536 357 C530 370, 523 381, 518 388 C512 398, 505 404, 500 405 Z" />
+   <path id="TextArt1-shape28" d="M580 319 L582 319 L582 311 C582 297, 584 283, 587 270 L557 317 C559 317, 562 317, 565 317 C574 318, 579 319, 580 319 Z" />
+   <path id="TextArt1-shape29" d="M625 316 C623 316, 622 315, 621 315 C619 314, 619 312, 619 310 C619 307, 621 304, 626 301 C627 300, 630 300, 632 299 C632 299, 633 298, 635 298 C636 297, 637 296, 638 296 C641 296, 642 298, 643 300 C643 303, 644 305, 644 308 C644 311, 643 315, 643 319 C642 324, 641 326, 641 326 L641 326 C640 326, 641 325, 643 322 C645 317, 647 314, 647 314 C646 313, 646 312, 646 311 C646 309, 646 307, 646 306 C646 301, 646 297, 647 294 C648 292, 650 290, 653 287 C654 286, 656 285, 657 284 C658 283, 660 283, 660 283 C662 283, 664 284, 665 287 C667 291, 668 294, 668 296 C668 296, 667 298, 666 302 C665 304, 664 307, 664 309 C664 310, 665 311, 666 313 C667 315, 667 317, 667 321 C667 324, 666 325, 663 327 C660 328, 658 329, 656 329 C655 329, 654 329, 653 328 C652 326, 651 325, 651 324 C649 333, 645 341, 642 347 C637 358, 631 364, 627 364 C625 364, 622 362, 620 359 C617 355, 616 352, 616 349 C618 347, 619 345, 620 344 C623 340, 624 338, 625 336 C625 334, 625 332, 626 329 C626 327, 626 324, 626 322 L626 316Z" />
+   <path id="TextArt1-shape30" d="M689 338 C689 340, 689 341, 689 342 C690 343, 691 344, 693 344 C694 344, 696 343, 698 343 C702 341, 705 340, 705 340 L708 342 L708 345 C708 351, 704 356, 698 359 C692 362, 688 364, 683 364 C678 364, 674 362, 672 357 C669 353, 668 347, 668 341 C668 339, 669 335, 670 330 C671 326, 672 323, 674 320 C674 320, 673 320, 672 320 C670 320, 669 319, 669 317 C669 314, 671 311, 674 308 C677 305, 679 303, 680 303 C680 302, 680 302, 681 301 C681 300, 681 299, 682 298 C683 294, 685 290, 687 285 C689 279, 691 274, 692 273 C693 273, 694 272, 695 272 C697 271, 698 271, 699 270 C700 270, 701 269, 701 269 C703 268, 704 268, 705 268 C707 268, 708 269, 708 271 C709 273, 709 275, 709 278 C709 279, 709 280, 708 282 C708 283, 708 285, 707 286 L700 301 C701 301, 702 301, 704 302 C705 302, 707 302, 708 303 L709 307 C709 310, 708 313, 706 316 C703 319, 701 321, 698 321 L692 321 C691 325, 690 328, 689 331 C689 334, 689 336, 689 338 Z" />
+   <path id="TextArt1-shape31" d="M727 285 C727 283, 727 282, 727 281 C728 280, 728 279, 729 278 L731 274 C732 272, 734 271, 737 270 C740 268, 743 268, 745 268 C747 268, 749 270, 749 275 C749 275, 749 277, 748 279 C748 280, 748 281, 747 281 C747 285, 747 286, 746 287 C745 288, 744 289, 741 290 C739 290, 737 290, 735 291 C734 291, 732 292, 731 292 C729 292, 728 291, 727 289 C727 288, 727 286, 727 285 Z" />
+   <path id="TextArt1-shape32" d="M745 299 C745 300, 743 307, 739 317 C735 327, 733 334, 733 340 C733 341, 733 342, 733 343 C734 343, 734 344, 735 344 C736 344, 738 343, 740 341 C742 339, 744 338, 745 338 C747 338, 748 340, 748 343 C748 347, 746 351, 741 355 C738 357, 735 358, 731 360 C730 360, 728 361, 727 362 C725 363, 724 364, 722 364 C719 364, 716 362, 714 360 C712 357, 711 353, 711 350 C711 347, 712 345, 712 344 C712 342, 713 341, 713 338 L724 307 C724 304, 725 302, 726 301 C727 300, 728 299, 730 298 C732 297, 734 296, 736 294 C736 294, 737 294, 738 293 C740 292, 741 292, 741 292 C743 292, 744 292, 744 294 C745 295, 745 297, 745 299 Z" />
+   <path id="TextArt1-shape33" d="M784 308 C786 313, 787 318, 790 322 C792 327, 793 331, 793 335 C793 344, 789 351, 783 357 C777 362, 770 364, 764 364 C760 364, 757 364, 755 362 C751 360, 749 358, 749 353 C749 350, 750 347, 753 342 C756 338, 758 336, 761 336 C764 336, 766 338, 767 342 C769 346, 771 349, 772 349 C772 349, 772 348, 772 347 C772 340, 770 334, 767 328 C764 321, 763 317, 763 315 C763 310, 766 304, 772 296 C779 289, 785 285, 788 285 C790 285, 792 286, 793 287 C795 288, 796 290, 796 292 C796 296, 796 300, 795 303 C794 307, 792 309, 789 309 C787 309, 786 309, 786 308 C784 307, 784 307, 784 305 C784 306, 784 307, 784 308 Z" />
+   <path id="TextArt1-shape34" d="M822 338 C822 340, 822 341, 823 342 C824 343, 824 344, 826 344 C827 344, 829 343, 831 343 C835 341, 838 340, 838 340 L841 342 L842 345 C841 351, 837 356, 830 359 C825 362, 821 364, 816 364 C811 364, 807 362, 805 357 C802 353, 801 347, 801 341 C801 339, 802 335, 804 330 C805 326, 805 323, 807 320 C807 320, 806 320, 805 320 C804 320, 803 319, 802 317 C803 314, 805 311, 807 308 C810 305, 812 303, 812 303 C813 302, 813 302, 814 301 C814 300, 814 299, 815 298 C816 294, 818 290, 820 285 C822 279, 824 274, 825 273 C826 273, 827 272, 828 272 C830 271, 831 271, 832 270 C833 270, 834 269, 834 269 C835 268, 837 268, 838 268 C840 268, 841 269, 842 271 C843 273, 843 275, 843 278 C843 279, 843 280, 842 282 C841 283, 840 285, 840 286 L832 301 C834 301, 835 301, 836 302 C838 302, 840 302, 842 303 L843 307 C843 310, 841 313, 839 316 C836 319, 833 321, 831 321 L825 321 C824 325, 823 328, 823 331 C822 334, 822 336, 822 338" />
+</defs>
+<clipPath id="TextArt1-clippath0">
+   <use xlink:href="#TextArt1-shape0"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape0" data-href="#TextArt1-shape0" clip-path="url(#TextArt1-clippath0)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath1">
+   <use xlink:href="#TextArt1-shape1"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape1" data-href="#TextArt1-shape1" clip-path="url(#TextArt1-clippath1)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath2">
+   <use xlink:href="#TextArt1-shape2"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape2" data-href="#TextArt1-shape2" clip-path="url(#TextArt1-clippath2)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath3">
+   <use xlink:href="#TextArt1-shape3"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape3" data-href="#TextArt1-shape3" clip-path="url(#TextArt1-clippath3)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath4">
+   <use xlink:href="#TextArt1-shape4"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape4" data-href="#TextArt1-shape4" clip-path="url(#TextArt1-clippath4)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath5">
+   <use xlink:href="#TextArt1-shape5"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape5" data-href="#TextArt1-shape5" clip-path="url(#TextArt1-clippath5)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath6">
+   <use xlink:href="#TextArt1-shape6"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape6" data-href="#TextArt1-shape6" clip-path="url(#TextArt1-clippath6)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath7">
+   <use xlink:href="#TextArt1-shape7"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape7" data-href="#TextArt1-shape7" clip-path="url(#TextArt1-clippath7)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath8">
+   <use xlink:href="#TextArt1-shape8"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape8" data-href="#TextArt1-shape8" clip-path="url(#TextArt1-clippath8)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath9">
+   <use xlink:href="#TextArt1-shape9"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape9" data-href="#TextArt1-shape9" clip-path="url(#TextArt1-clippath9)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath10">
+   <use xlink:href="#TextArt1-shape10"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape10" data-href="#TextArt1-shape10" clip-path="url(#TextArt1-clippath10)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath11">
+   <use xlink:href="#TextArt1-shape11"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape11" data-href="#TextArt1-shape11" clip-path="url(#TextArt1-clippath11)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath12">
+   <use xlink:href="#TextArt1-shape12"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape12" data-href="#TextArt1-shape12" clip-path="url(#TextArt1-clippath12)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath13">
+   <use xlink:href="#TextArt1-shape13"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape13" data-href="#TextArt1-shape13" clip-path="url(#TextArt1-clippath13)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath14">
+   <use xlink:href="#TextArt1-shape14"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape14" data-href="#TextArt1-shape14" clip-path="url(#TextArt1-clippath14)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath15">
+   <use xlink:href="#TextArt1-shape15"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape15" data-href="#TextArt1-shape15" clip-path="url(#TextArt1-clippath15)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath16">
+   <use xlink:href="#TextArt1-shape16"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape16" data-href="#TextArt1-shape16" clip-path="url(#TextArt1-clippath16)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath17">
+   <use xlink:href="#TextArt1-shape17"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape17" data-href="#TextArt1-shape17" clip-path="url(#TextArt1-clippath17)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath18">
+   <use xlink:href="#TextArt1-shape18"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape18" data-href="#TextArt1-shape18" clip-path="url(#TextArt1-clippath18)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath19">
+   <use xlink:href="#TextArt1-shape19"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape19" data-href="#TextArt1-shape19" clip-path="url(#TextArt1-clippath19)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath20">
+   <use xlink:href="#TextArt1-shape20"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape20" data-href="#TextArt1-shape20" clip-path="url(#TextArt1-clippath20)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath21">
+   <use xlink:href="#TextArt1-shape21"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape21" data-href="#TextArt1-shape21" clip-path="url(#TextArt1-clippath21)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath22">
+   <use xlink:href="#TextArt1-shape22"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape22" data-href="#TextArt1-shape22" clip-path="url(#TextArt1-clippath22)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath23">
+   <use xlink:href="#TextArt1-shape23"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape23" data-href="#TextArt1-shape23" clip-path="url(#TextArt1-clippath23)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath24">
+   <use xlink:href="#TextArt1-shape24"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape24" data-href="#TextArt1-shape24" clip-path="url(#TextArt1-clippath24)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath25">
+   <use xlink:href="#TextArt1-shape25"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape25" data-href="#TextArt1-shape25" clip-path="url(#TextArt1-clippath25)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath26">
+   <use xlink:href="#TextArt1-shape26"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape26" data-href="#TextArt1-shape26" clip-path="url(#TextArt1-clippath26)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath27">
+   <use xlink:href="#TextArt1-shape27"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape27" data-href="#TextArt1-shape27" clip-path="url(#TextArt1-clippath27)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath28">
+   <use xlink:href="#TextArt1-shape28"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape28" data-href="#TextArt1-shape28" clip-path="url(#TextArt1-clippath28)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath29">
+   <use xlink:href="#TextArt1-shape29"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape29" data-href="#TextArt1-shape29" clip-path="url(#TextArt1-clippath29)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath30">
+   <use xlink:href="#TextArt1-shape30"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape30" data-href="#TextArt1-shape30" clip-path="url(#TextArt1-clippath30)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath31">
+   <use xlink:href="#TextArt1-shape31"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape31" data-href="#TextArt1-shape31" clip-path="url(#TextArt1-clippath31)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath32">
+   <use xlink:href="#TextArt1-shape32"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape32" data-href="#TextArt1-shape32" clip-path="url(#TextArt1-clippath32)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath33">
+   <use xlink:href="#TextArt1-shape33"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape33" data-href="#TextArt1-shape33" clip-path="url(#TextArt1-clippath33)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+<clipPath id="TextArt1-clippath34">
+   <use xlink:href="#TextArt1-shape34"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape34" data-href="#TextArt1-shape34" clip-path="url(#TextArt1-clippath34)" style="fill:#B22222;stroke:#000000;stroke-width:4"/>
+</svg>
+
+</div>
+<hr id="Line1">
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2-overlay"></div>
+<div id="LayoutGrid2">
+<div class="col-1">
+<div id="wb_TextArt3">
+<svg id="TextArt3" height="100%" width="100%" viewBox="0 0 940 146" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+   <path id="TextArt3-shape" d="M0 141 L0 0 L17 0 L17 141Z  M86 141 L71 141 L71 89 C71 78, 70 71, 70 67 C69 64, 68 62, 66 60 C65 58, 63 57, 61 57 C58 57, 56 58, 53 61 C52 64, 50 67, 50 71 C49 75, 48 83, 48 95 L48 141 L32 141 L32 39 L47 39 L47 54 C53 42, 59 37, 66 37 C70 37, 73 38, 76 40 C78 42, 81 45, 82 48 C84 51, 85 55, 86 59 C86 64, 86 70, 86 77 Z M158 141 L144 141 L144 126 C141 132, 138 136, 135 139 C132 142, 128 143, 125 143 C118 143, 112 138, 108 129 C103 120, 100 106, 100 89 C100 72, 103 59, 108 50 C112 41, 118 37, 125 37 C132 37, 137 41, 142 51 L142 0 L158 0Z  M116 88 C116 98, 117 106, 119 111 C122 118, 125 122, 129 122 C133 122, 136 119, 138 114 C141 109, 142 101, 142 90 C142 78, 141 70, 138 65 C136 60, 133 57, 129 57 C125 57, 123 60, 120 65 C118 70, 116 77, 116 88 Z M171 88 C171 79, 173 71, 175 62 C178 54, 182 48, 186 43 C191 39, 196 37, 202 37 C211 37, 217 42, 224 52 C229 62, 232 74, 232 90 C232 105, 229 118, 224 128 C217 138, 210 143, 202 143 C196 143, 192 141, 186 137 C182 133, 178 126, 175 118 C173 110, 171 100, 171 88 Z M187 90 C187 100, 189 108, 192 113 C194 119, 198 121, 202 121 C206 121, 209 119, 212 113 C215 108, 217 100, 217 90 C217 80, 215 72, 212 67 C209 61, 206 59, 202 59 C198 59, 194 61, 192 67 C189 72, 187 80, 187 90 Z M300 141 L284 141 L284 89 C284 78, 284 71, 283 67 C283 64, 281 62, 280 60 C278 58, 276 57, 275 57 C272 57, 269 58, 267 61 C265 64, 264 67, 263 71 C262 75, 262 83, 262 95 L262 141 L246 141 L246 39 L261 39 L261 54 C265 42, 272 37, 280 37 C284 37, 287 38, 289 40 C292 42, 294 45, 296 48 C298 51, 299 55, 299 59 C300 64, 300 70, 300 77 Z M351 108 L367 113 C365 123, 362 130, 358 135 C353 141, 348 143, 342 143 C331 143, 323 137, 319 126 C315 117, 313 105, 313 91 C313 74, 315 60, 321 51 C325 41, 332 37, 340 37 C348 37, 356 42, 360 52 C366 62, 368 77, 368 98 L329 98 C329 106, 330 112, 333 116 C335 121, 338 123, 342 123 C344 123, 347 122, 347 120 C349 117, 351 114, 351 108 Z M352 81 C352 73, 351 67, 349 63 C347 59, 344 57, 341 57 C337 57, 335 59, 333 64 C330 68, 329 74, 329 81 Z M377 112 L393 108 C394 113, 394 117, 396 120 C398 122, 401 124, 405 124 C409 124, 412 122, 414 120 C416 118, 416 116, 416 113 C416 111, 416 109, 415 107 C414 106, 413 105, 410 104 C397 99, 389 95, 386 91 C382 85, 379 78, 379 68 C379 59, 381 52, 385 46 C389 40, 395 37, 404 37 C412 37, 417 39, 421 43 C426 48, 429 55, 429 64 L415 68 C415 64, 413 61, 411 59 C410 57, 407 56, 404 56 C400 56, 397 57, 395 59 C394 60, 394 62, 394 64 C394 66, 394 68, 395 69 C396 71, 401 74, 409 77 C417 80, 424 84, 427 89 C430 94, 431 100, 431 109 C431 118, 429 126, 425 133 C420 140, 414 143, 405 143 C397 143, 391 140, 386 135 C382 129, 378 121, 377 112 Z M447 25 L447 0 L463 0 L463 25Z  M447 141 L447 39 L463 39 L463 141Z  M491 70 L477 66 C478 56, 481 48, 485 44 C489 39, 495 37, 502 37 C510 37, 514 38, 518 41 C522 44, 523 47, 525 52 C526 56, 527 64, 527 76 L527 107 C527 116, 527 123, 528 127 C528 131, 529 136, 531 141 L515 141 C515 139, 514 136, 513 133 C513 131, 513 130, 513 130 C511 134, 508 138, 504 140 C501 142, 499 143, 495 143 C488 143, 484 140, 481 135 C477 129, 476 122, 476 113 C476 107, 476 102, 477 98 C479 93, 482 90, 485 87 C488 85, 491 83, 497 81 C504 79, 509 76, 511 74 L511 72 C511 66, 511 63, 510 60 C508 58, 505 57, 501 57 C499 57, 497 58, 495 60 C493 62, 492 65, 491 70 Z M511 92 C510 93, 507 94, 502 96 C498 98, 495 99, 494 101 C492 103, 491 106, 491 110 C491 114, 492 117, 493 120 C495 123, 497 124, 499 124 C502 124, 505 123, 508 119 C510 117, 511 114, 511 110 C511 108, 511 104, 511 97 Z M597 141 L582 141 L582 89 C582 78, 582 71, 582 67 C581 64, 580 62, 578 60 C576 58, 574 57, 572 57 C570 57, 568 58, 565 61 C563 64, 561 67, 561 71 C560 75, 559 83, 559 95 L559 141 L544 141 L544 39 L558 39 L558 54 C564 42, 570 37, 578 37 C582 37, 584 38, 587 40 C590 42, 593 45, 593 48 C595 51, 596 55, 597 59 C597 64, 597 70, 597 77 Z M648 0 L680 0 C687 0, 691 0, 695 1 C698 2, 700 4, 703 7 C706 10, 708 14, 710 19 C711 24, 711 29, 711 35 C711 42, 711 48, 709 54 C707 59, 704 63, 700 66 C705 69, 710 73, 711 79 C714 85, 716 92, 716 100 C716 106, 715 113, 713 119 C711 125, 710 130, 706 133 C703 137, 699 139, 695 140 C692 140, 686 141, 676 141 L648 141Z  M664 23 L664 56 L676 56 C681 56, 686 56, 687 56 C689 55, 692 53, 694 51 C695 48, 696 44, 696 40 C696 35, 695 32, 694 29 C692 26, 690 24, 687 24 C686 24, 681 23, 674 23 Z M664 79 L664 117 L679 117 C686 117, 689 117, 690 116 C693 116, 695 114, 697 111 C699 108, 699 104, 699 99 C699 94, 699 91, 697 88 C696 85, 694 83, 692 81 C690 80, 685 79, 677 79 Z M744 70 L730 66 C731 56, 734 48, 737 44 C742 39, 747 37, 755 37 C762 37, 767 38, 770 41 C774 44, 776 47, 778 52 C779 56, 780 64, 780 76 L780 107 C780 116, 780 123, 781 127 C781 131, 781 136, 783 141 L768 141 C767 139, 767 136, 766 133 C766 131, 766 130, 766 130 C763 134, 760 138, 757 140 C754 142, 751 143, 747 143 C741 143, 736 140, 733 135 C730 129, 728 122, 728 113 C728 107, 729 102, 730 98 C732 93, 734 90, 737 87 C740 85, 744 83, 749 81 C757 79, 761 76, 764 74 L764 72 C764 66, 764 63, 762 60 C760 58, 758 57, 754 57 C751 57, 749 58, 747 60 C746 62, 745 65, 744 70 Z M764 92 C762 93, 759 94, 755 96 C750 98, 747 99, 746 101 C745 103, 744 106, 744 110 C744 114, 745 117, 746 120 C747 123, 749 124, 752 124 C755 124, 758 123, 760 119 C762 117, 763 114, 764 110 C764 108, 764 104, 764 97 Z M824 39 L824 60 L813 60 L813 101 C813 110, 813 115, 814 116 C814 117, 814 119, 815 119 C816 120, 817 121, 817 121 C818 121, 821 120, 824 118 L825 139 C821 142, 817 143, 813 143 C810 143, 807 142, 805 141 C803 139, 801 137, 800 134 C799 132, 798 128, 798 124 C798 121, 797 114, 797 105 L797 60 L791 60 L791 39 L797 39 L797 19 L813 3 L813 39Z  M836 25 L836 0 L851 0 L851 25Z  M836 141 L836 39 L851 39 L851 141Z  M867 141 L867 0 L883 0 L883 75 L901 39 L920 39 L900 76 L922 141 L905 141 L890 95 L883 108 L883 141Z " />
+</defs>
+<clipPath id="TextArt3-clippath">
+   <use xlink:href="#TextArt3-shape"/>
+</clipPath>
+<use xlink:href="#TextArt3-shape" data-href="#TextArt3-shape" clip-path="url(#TextArt3-clippath)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+</svg>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_carouselGrid">
+<div id="carouselGrid">
+<div class="row">
+<div class="col-1">
+<div id="wb_Carousel1">
+<div id="Carousel1" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#Carousel1" data-slide-to="0" class="active"></li>
+<li data-target="#Carousel1" data-slide-to="1"></li>
+<li data-target="#Carousel1" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item frame-1 active">
+<div class="carousel-innerframe">
+<div id="wb_Text9" class="caption">
+<span style="color:#000000;font-family:Arial;font-size:21px;line-height:24px;"><strong>First Slide</strong></span><span style="color:#000000;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the first slide.</span>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-2">
+<div class="carousel-innerframe">
+<div id="wb_Text10" class="caption">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Second Slide</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the second slide.</span>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-3">
+<div class="carousel-innerframe">
+<div id="wb_Text11" class="caption">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Third Slide</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the third slide.</span>
+</div>
+</div>
+</div>
+</div>
+<a class="carousel-item-left carousel-control" href="#Carousel1" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+</a>
+<a class="carousel-item-right carousel-control" href="#Carousel1" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+</div>
+<div class="col-2">
+<div id="wb_Text5">
+<span style="color:#FFFFFF;font-family:'Courier New';font-size:21px;line-height:19px;">Wax resist is one of the world’s great art forms, with roots that go deep into history – as far back as 2000 years.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.<br></span>
+</div>
+<input type="submit" id="Button2" name="" value="More Info">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1-overlay"></div>
+<div id="LayoutGrid1">
+<div class="col-1">
+<div id="wb_TextArt4">
+<svg id="TextArt4" height="100%" width="100%" viewBox="0 0 940 140" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+   <path id="TextArt4-shape" d="M147 135 L114 135 L101 104 L43 104 L31 135 L0 135 L57 0 L88 0Z  M92 82 L72 32 L53 82Z  M259 66 L231 71 C230 66, 229 62, 225 59 C221 57, 217 55, 212 55 C206 55, 199 58, 195 62 C191 66, 189 74, 189 84 C189 96, 192 104, 195 109 C200 114, 206 116, 213 116 C217 116, 222 115, 226 112 C229 109, 231 104, 232 98 L260 102 C257 114, 252 122, 243 128 C236 134, 225 137, 211 137 C195 137, 183 133, 174 124 C165 115, 160 102, 160 86 C160 70, 165 58, 174 48 C183 40, 196 35, 212 35 C225 35, 235 38, 242 43 C250 48, 255 56, 259 66 Z M332 37 L332 58 L312 58 L312 97 C312 105, 313 110, 313 111 C313 113, 314 114, 316 114 C317 115, 319 116, 321 116 C323 116, 327 115, 332 113 L335 133 C328 136, 321 137, 312 137 C307 137, 302 136, 299 135 C294 133, 291 131, 289 129 C288 126, 287 123, 286 119 C285 116, 285 110, 285 100 L285 58 L272 58 L272 37 L285 37 L285 18 L312 3 L312 37Z  M353 24 L353 0 L382 0 L382 24Z  M353 135 L353 37 L382 37 L382 135Z  M441 135 L398 37 L428 37 L448 87 L453 104 C455 100, 456 97, 456 95 C457 93, 458 90, 459 87 L479 37 L508 37 L466 135Z  M529 24 L529 0 L557 0 L557 24Z  M529 135 L529 37 L557 37 L557 135Z  M636 37 L636 58 L617 58 L617 97 C617 105, 617 110, 617 111 C617 113, 618 114, 619 114 C621 115, 623 116, 625 116 C627 116, 630 115, 636 113 L638 133 C631 136, 624 137, 616 137 C611 137, 606 136, 603 135 C598 133, 595 131, 593 129 C592 126, 590 123, 590 119 C589 116, 589 110, 589 100 L589 58 L576 58 L576 37 L589 37 L589 18 L617 3 L617 37Z  M657 24 L657 0 L686 0 L686 24Z  M657 135 L657 37 L686 37 L686 135Z  M777 104 L805 108 C801 118, 795 125, 788 130 C780 135, 770 137, 758 137 C740 137, 727 132, 718 121 C711 112, 708 100, 708 87 C708 71, 712 58, 722 49 C731 40, 742 35, 756 35 C771 35, 784 40, 793 49 C803 59, 806 74, 806 94 L736 94 C736 101, 738 107, 743 111 C747 116, 753 118, 759 118 C763 118, 767 117, 770 115 C773 112, 775 109, 777 104 Z M779 78 C779 70, 776 65, 772 61 C769 57, 763 55, 758 55 C752 55, 746 57, 743 61 C738 65, 736 71, 736 78 Z M823 107 L851 103 C852 108, 854 112, 858 115 C862 117, 867 119, 874 119 C881 119, 887 117, 889 115 C892 113, 893 111, 893 108 C893 106, 893 104, 891 103 C890 102, 887 101, 882 100 C860 95, 845 91, 840 87 C830 82, 827 74, 827 65 C827 57, 830 49, 838 44 C845 38, 856 35, 871 35 C886 35, 897 37, 903 42 C911 46, 915 52, 918 61 L891 65 C890 62, 888 59, 885 57 C882 55, 877 54, 872 54 C864 54, 859 55, 856 56 C853 58, 852 60, 852 62 C852 64, 853 65, 855 66 C858 68, 866 71, 882 74 C897 77, 907 81, 912 85 C919 90, 922 96, 922 104 C922 113, 918 121, 910 128 C901 134, 889 137, 874 137 C859 137, 848 135, 840 129 C830 124, 825 116, 823 107" />
+</defs>
+<clipPath id="TextArt4-clippath">
+   <use xlink:href="#TextArt4-shape"/>
+</clipPath>
+<use xlink:href="#TextArt4-shape" data-href="#TextArt4-shape" clip-path="url(#TextArt4-clippath)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+</svg>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_coffee">
+<div id="coffee-overlay"></div>
+<div id="coffee">
+<div id="wb_coffeeCard1">
+   <div id="coffeeCard1-card-body">
+      <a href="./Happenings.html"><img id="coffeeCard1-card-item0" src="images/thumbnail_IMG_1255_sq.jpg" alt="" title=""></a>
+      <div id="coffeeCard1-card-item1">Workshops</div>
+      <div id="coffeeCard1-card-item2"><i class="fa fa-paint-brush"></i></div>
+      <hr id="coffeeCard1-card-item3">
+      <div id="coffeeCard1-card-item4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam</div>
+      <div id="coffeeCard1-card-item5">Read more >></div>
+   </div>
+</div>
+<div id="wb_coffeeCard2">
+   <div id="coffeeCard2-card-body">
+      <div style="overflow:hidden"><a href="./Happenings.html#LayoutGrid4"><img id="coffeeCard2-card-item0" src="images/thumbnail_IMG_1327_sq.jpg" alt="" title=""></a></div>
+      <div id="coffeeCard2-card-item1">Exhibitions</div>
+      <div id="coffeeCard2-card-item2"><i class="fa fa-child"></i></div>
+      <hr id="coffeeCard2-card-item3">
+      <div id="coffeeCard2-card-item4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam</div>
+      <div id="coffeeCard2-card-item5">Read more >></div>
+   </div>
+</div>
+<div id="wb_coffeeCard3">
+   <div id="coffeeCard3-card-body">
+      <a href="./Happenings.html#LayoutGrid6"><img id="coffeeCard3-card-item0" src="images/thumbnail_IMG_1228_sq.jpg" alt="" title=""></a>
+      <div id="coffeeCard3-card-item1">Travels</div>
+      <div id="coffeeCard3-card-item2"><i class="fa fa-plane"></i></div>
+      <hr id="coffeeCard3-card-item3">
+      <div id="coffeeCard3-card-item4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam</div>
+      <div id="coffeeCard3-card-item5">Read more >></div>
+   </div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5-overlay"></div>
+<div id="LayoutGrid5">
+<div class="col-1">
+<div id="wb_TextArt5">
+<svg id="TextArt5" height="100%" width="100%" viewBox="0 0 940 140" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+   <path id="TextArt5-shape" d="M0 106 L0 0 L48 0 C65 0, 77 1, 83 2 C91 3, 99 7, 104 12 C110 17, 112 24, 112 33 C112 39, 111 45, 108 49 C104 54, 100 57, 95 60 C90 62, 85 64, 79 65 C73 66, 63 66, 49 66 L29 66 L29 106Z  M29 18 L29 48 L46 48 C57 48, 65 47, 69 46 C73 45, 76 44, 78 41 C81 39, 82 36, 82 33 C82 29, 80 26, 77 23 C74 21, 70 19, 65 19 C62 18, 54 18, 44 18 Z M161 53 L136 49 C139 42, 144 36, 151 33 C158 29, 169 27, 182 27 C194 27, 204 29, 210 31 C217 33, 220 36, 223 39 C226 42, 227 48, 227 57 L227 81 C227 88, 227 93, 228 96 C229 99, 230 102, 233 106 L206 106 C205 105, 204 103, 203 100 C202 99, 202 98, 202 98 C196 101, 192 104, 186 105 C181 107, 175 108, 169 108 C158 108, 149 106, 143 101 C136 97, 133 92, 133 85 C133 81, 135 77, 137 73 C140 70, 145 68, 149 66 C155 64, 162 62, 171 61 C185 59, 194 58, 199 56 L199 54 C199 50, 198 47, 195 46 C193 44, 187 43, 180 43 C175 43, 171 44, 169 45 C166 47, 163 49, 161 53 Z M199 69 C195 70, 190 71, 182 72 C174 73, 170 75, 167 76 C163 78, 161 80, 161 83 C161 86, 163 88, 166 90 C169 93, 172 93, 177 93 C182 93, 187 92, 192 90 C194 88, 197 86, 198 83 C199 81, 199 78, 199 73 Z M258 19 L258 0 L286 0 L286 19Z  M258 106 L258 29 L286 29 L286 106Z  M413 106 L385 106 L385 67 C385 59, 384 53, 383 51 C382 48, 380 46, 378 45 C375 44, 371 43, 368 43 C363 43, 358 44, 355 46 C351 48, 348 50, 347 54 C346 57, 345 63, 345 71 L345 106 L316 106 L316 29 L343 29 L343 40 C352 32, 363 27, 378 27 C383 27, 389 28, 394 30 C400 32, 404 34, 406 36 C409 39, 411 41, 412 45 C413 48, 413 52, 413 58 Z M494 29 L494 45 L475 45 L475 76 C475 83, 476 86, 476 87 C476 88, 476 89, 478 90 C479 91, 481 91, 483 91 C486 91, 489 90, 494 89 L497 105 C490 107, 483 108, 475 108 C469 108, 464 107, 461 106 C456 105, 453 103, 452 101 C450 99, 449 97, 448 93 C447 91, 447 86, 447 79 L447 45 L434 45 L434 29 L447 29 L447 14 L475 2 L475 29Z  M516 19 L516 0 L544 0 L544 19Z  M516 106 L516 29 L544 29 L544 106Z  M671 106 L643 106 L643 67 C643 59, 642 53, 641 51 C640 48, 638 46, 635 45 C632 44, 629 43, 626 43 C620 43, 617 44, 612 46 C608 48, 605 50, 605 54 C603 57, 602 63, 602 71 L602 106 L574 106 L574 29 L600 29 L600 40 C609 32, 621 27, 635 27 C641 27, 647 28, 652 30 C657 32, 662 34, 664 36 C666 39, 668 41, 669 45 C671 48, 671 52, 671 58 Z M700 111 L733 114 C734 117, 734 118, 736 120 C739 121, 744 122, 749 122 C757 122, 762 121, 766 119 C768 118, 770 117, 771 114 C772 113, 772 109, 772 105 L772 94 C764 102, 754 106, 741 106 C726 106, 715 102, 707 93 C700 86, 697 78, 697 67 C697 54, 701 44, 710 38 C719 31, 729 27, 742 27 C755 27, 766 32, 774 40 L774 29 L801 29 L801 98 C801 107, 800 114, 797 118 C795 123, 793 127, 789 129 C785 132, 780 134, 774 135 C768 137, 759 137, 750 137 C733 137, 720 135, 711 131 C704 126, 700 121, 700 114 C700 113, 700 112, 700 111 Z M726 66 C726 74, 728 80, 733 84 C736 88, 742 90, 748 90 C756 90, 761 88, 766 84 C770 80, 773 74, 773 67 C773 59, 770 53, 766 49 C761 45, 756 43, 749 43 C742 43, 736 45, 733 49 C728 53, 726 58, 726 66 Z M822 84 L851 81 C852 85, 854 88, 858 90 C862 92, 866 93, 874 93 C880 93, 886 92, 889 90 C892 89, 893 87, 893 85 C893 83, 893 82, 891 81 C890 80, 887 79, 882 78 C859 75, 845 71, 839 68 C830 64, 827 58, 827 51 C827 44, 829 39, 837 34 C844 30, 855 27, 871 27 C886 27, 897 29, 903 33 C911 36, 915 41, 918 48 L891 51 C890 48, 888 46, 885 44 C882 43, 877 42, 872 42 C864 42, 859 43, 855 44 C853 45, 852 47, 852 48 C852 50, 853 51, 855 52 C858 54, 866 55, 881 58 C897 60, 907 63, 912 67 C919 71, 922 76, 922 82 C922 89, 918 95, 910 100 C901 105, 889 108, 874 108 C859 108, 847 106, 839 101 C830 97, 825 91, 822 84" />
+</defs>
+<clipPath id="TextArt5-clippath">
+   <use xlink:href="#TextArt5-shape"/>
+</clipPath>
+<use xlink:href="#TextArt5-shape" data-href="#TextArt5-shape" clip-path="url(#TextArt5-clippath)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+</svg>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_galleryLayoutGrid">
+<div id="galleryLayoutGrid">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_galleryCollage">
+<div id="galleryCollage">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="images/f1_sq.jpg" data-rel="galleryCollage"><img alt="" src="images/f1_sq.jpg" class="image"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/f3_sq.jpg" data-rel="galleryCollage"><img alt="" src="images/f3_sq.jpg" class="image"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/f4_sq.jpg" data-rel="galleryCollage"><img alt="" src="images/f4_sq.jpg" class="image"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/f5.jpg" data-rel="galleryCollage"><img alt="" src="images/f5.jpg" class="image"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/f6.jpg" data-rel="galleryCollage"><img alt="" src="images/f6.jpg" class="image"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/f9_sq.jpg" data-rel="galleryCollage"><img alt="" src="images/f9_sq.jpg" class="image"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/f2-sq.jpg" data-rel="galleryCollage"><img alt="" src="images/f2-sq.jpg" class="image"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/f7_sq.jpg" data-rel="galleryCollage"><img alt="" src="images/f7_sq.jpg" class="image"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/Klimt_keskeny_sq.jpg" data-rel="galleryCollage"><img alt="" src="images/Klimt_keskeny_sq.jpg" class="image"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/f8_sq.jpg" data-rel="galleryCollage"><img alt="" src="images/f8_sq.jpg" class="image"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/thumbnail_IMG_1525_sq.jpg" data-rel="galleryCollage"><img alt="" src="images/thumbnail_IMG_1525_sq.jpg" class="image"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/thumbnail_IMG_2364.jpg_sq.png" data-rel="galleryCollage"><img alt="" src="images/thumbnail_IMG_2364.jpg_sq.png" class="image"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/thumbnail_IMG_2744.jpg_sq.png" data-rel="galleryCollage"><img alt="" src="images/thumbnail_IMG_2744.jpg_sq.png" class="image"></a>
+      </div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3-overlay"></div>
+<div id="LayoutGrid3">
+<div class="col-1">
+<div id="wb_TextArt2">
+<svg id="TextArt2" height="100%" width="100%" viewBox="0 0 940 184" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+   <path id="TextArt2-shape" d="M14 141 L0 0 L12 0 L20 97 L31 0 L45 0 L55 99 L64 0 L76 0 L62 141 L49 141 L38 36 L27 141Z  M79 89 C79 80, 80 71, 82 63 C84 54, 87 48, 90 43 C93 39, 97 37, 101 37 C108 37, 112 42, 117 52 C121 62, 123 75, 123 90 C123 105, 121 118, 117 128 C112 139, 108 144, 101 144 C98 144, 94 142, 90 137 C87 133, 84 127, 82 119 C80 111, 79 100, 79 89 Z M91 90 C91 100, 92 108, 94 113 C96 119, 99 122, 101 122 C104 122, 107 119, 109 113 C111 108, 112 100, 112 90 C112 80, 111 72, 109 67 C107 62, 104 59, 101 59 C99 59, 96 62, 94 67 C92 72, 91 80, 91 90 Z M144 141 L133 141 L133 39 L143 39 L143 54 C145 47, 146 42, 147 40 C148 38, 150 37, 152 37 C155 37, 157 38, 159 42 L156 65 C154 62, 152 61, 151 61 C149 61, 148 62, 147 64 C146 66, 145 70, 145 75 C144 81, 144 92, 144 110 Z M165 141 L165 0 L176 0 L176 75 L189 39 L202 39 L188 76 L204 141 L192 141 L181 95 L176 109 L176 141Z  M207 112 L218 108 C218 113, 220 117, 221 120 C223 123, 225 124, 228 124 C230 124, 232 123, 234 120 C235 119, 235 116, 235 113 C235 111, 235 109, 234 108 C234 107, 232 106, 230 104 C222 100, 217 95, 214 91 C210 86, 209 78, 209 68 C209 59, 210 52, 213 46 C216 40, 220 37, 227 37 C232 37, 236 39, 239 43 C241 48, 244 55, 245 64 L234 69 C234 65, 233 62, 232 59 C230 57, 229 56, 227 56 C224 56, 221 57, 220 59 C219 61, 219 62, 219 65 C219 67, 219 68, 220 70 C221 71, 225 74, 230 77 C236 80, 241 84, 242 89 C245 94, 246 101, 246 109 C246 119, 244 127, 241 134 C239 140, 233 144, 228 144 C221 144, 217 141, 214 135 C210 130, 208 122, 207 112 Z M268 0 L268 52 C272 42, 276 37, 281 37 C284 37, 286 38, 288 40 C290 42, 291 45, 292 49 C294 53, 294 57, 295 61 C295 65, 295 72, 295 81 L295 141 L284 141 L284 87 C284 76, 284 70, 284 67 C283 64, 282 62, 281 60 C280 58, 279 57, 277 57 C276 57, 274 58, 273 61 C271 63, 270 66, 269 71 C268 75, 268 82, 268 90 L268 141 L257 141 L257 0Z  M305 89 C305 80, 306 71, 308 63 C310 54, 312 48, 316 43 C319 39, 323 37, 327 37 C333 37, 338 42, 342 52 C347 62, 348 75, 348 90 C348 105, 347 118, 342 128 C338 139, 333 144, 327 144 C323 144, 320 142, 316 137 C312 133, 310 127, 308 119 C306 111, 305 100, 305 89 Z M317 90 C317 100, 318 108, 320 113 C322 119, 324 122, 327 122 C330 122, 332 119, 335 113 C336 108, 337 100, 337 90 C337 80, 336 72, 335 67 C332 62, 330 59, 327 59 C324 59, 322 62, 320 67 C318 72, 317 80, 317 90 Z M358 39 L369 39 L369 54 C370 49, 371 45, 374 41 C376 38, 379 37, 382 37 C386 37, 391 41, 394 51 C397 60, 399 73, 399 90 C399 107, 397 120, 394 130 C391 139, 386 144, 382 144 C379 144, 377 143, 375 140 C373 138, 371 134, 370 129 L370 180 L358 180Z  M370 88 C370 100, 370 108, 372 114 C374 119, 376 122, 379 122 C382 122, 383 120, 385 115 C387 110, 388 101, 388 90 C388 79, 387 71, 385 66 C383 61, 382 58, 379 58 C376 58, 373 61, 371 66 C370 71, 370 78, 370 88 Z M445 141 L445 24 L429 24 L429 0 L474 0 L474 24 L457 24 L457 141Z  M500 109 L511 113 C511 123, 508 131, 505 136 C502 141, 499 144, 494 144 C487 144, 481 138, 477 126 C475 117, 474 105, 474 91 C474 74, 476 61, 479 51 C483 41, 487 37, 492 37 C499 37, 504 42, 507 52 C511 62, 512 77, 512 98 L485 98 C485 106, 486 112, 488 117 C489 121, 491 123, 494 123 C496 123, 497 122, 499 120 C499 118, 500 114, 500 109 Z M501 81 C501 74, 500 68, 499 63 C498 60, 496 57, 493 57 C491 57, 488 60, 488 64 C486 68, 485 74, 485 81 Z M519 112 L530 108 C531 113, 532 117, 533 120 C535 123, 536 124, 539 124 C542 124, 544 123, 546 120 C546 119, 546 116, 546 113 C546 111, 546 109, 546 108 C546 107, 544 106, 542 104 C534 100, 528 95, 525 91 C522 86, 521 78, 521 68 C521 59, 522 52, 524 46 C527 40, 532 37, 538 37 C544 37, 548 39, 551 43 C554 48, 556 55, 557 64 L546 69 C546 65, 545 62, 544 59 C542 57, 540 56, 538 56 C535 56, 534 57, 532 59 C531 61, 531 62, 531 65 C531 67, 531 68, 532 70 C533 71, 536 74, 542 77 C548 80, 552 84, 555 89 C557 94, 558 101, 558 109 C558 119, 557 127, 553 134 C550 140, 545 144, 539 144 C534 144, 529 141, 525 135 C522 130, 520 122, 519 112 Z M588 39 L588 61 L581 61 L581 102 C581 110, 581 115, 581 117 C581 118, 582 119, 582 120 C582 121, 582 121, 583 121 C584 121, 586 120, 588 119 L589 140 C586 142, 583 144, 580 144 C578 144, 576 143, 575 141 C573 140, 572 137, 571 135 C570 132, 570 129, 570 124 C570 121, 570 115, 570 105 L570 61 L564 61 L564 39 L570 39 L570 19 L581 3 L581 39Z  M596 25 L596 0 L607 0 L607 25Z  M596 141 L596 39 L607 39 L607 141Z  M618 39 L629 39 L629 53 C632 42, 637 37, 641 37 C644 37, 647 38, 649 41 C651 43, 652 47, 653 53 C655 47, 657 43, 660 41 C662 38, 664 37, 666 37 C669 37, 672 38, 674 41 C676 44, 677 49, 679 55 C679 59, 680 66, 680 76 L680 141 L669 141 L669 83 C669 73, 668 66, 668 63 C666 59, 665 57, 663 57 C662 57, 660 59, 659 61 C657 63, 656 67, 656 71 C655 76, 655 83, 655 92 L655 141 L644 141 L644 85 C644 75, 643 69, 643 66 C643 63, 642 61, 641 60 C640 58, 640 57, 638 57 C636 57, 635 58, 633 61 C632 63, 631 66, 630 71 C630 75, 629 82, 629 92 L629 141 L618 141Z  M690 89 C690 80, 691 71, 693 63 C695 54, 698 48, 701 43 C704 39, 708 37, 712 37 C718 37, 723 42, 727 52 C732 62, 734 75, 734 90 C734 105, 732 118, 727 128 C723 139, 718 144, 712 144 C709 144, 705 142, 701 137 C698 133, 695 127, 693 119 C691 111, 690 100, 690 89 Z M702 90 C702 100, 703 108, 705 113 C707 119, 710 122, 712 122 C715 122, 717 119, 720 113 C722 108, 723 100, 723 90 C723 80, 722 72, 720 67 C717 62, 715 59, 712 59 C710 59, 707 62, 705 67 C703 72, 702 80, 702 90 Z M781 141 L770 141 L770 89 C770 78, 770 71, 770 68 C770 64, 769 62, 768 60 C767 58, 765 57, 764 57 C762 57, 760 59, 758 61 C758 64, 756 67, 756 71 C755 76, 755 84, 755 95 L755 141 L744 141 L744 39 L754 39 L754 54 C758 42, 762 37, 768 37 C770 37, 772 38, 774 40 C776 42, 778 45, 779 48 C780 51, 781 55, 781 60 C781 64, 781 70, 781 78 Z M794 25 L794 0 L805 0 L805 25Z  M794 141 L794 39 L805 39 L805 141Z  M826 70 L816 66 C817 56, 818 49, 821 44 C824 39, 828 37, 834 37 C839 37, 842 38, 845 41 C847 44, 849 47, 850 52 C851 56, 852 64, 852 76 L852 108 C852 117, 852 123, 852 128 C852 132, 852 137, 853 141 L842 141 C842 140, 842 137, 841 133 C841 132, 841 131, 841 130 C840 135, 838 138, 835 140 C833 143, 830 144, 828 144 C824 144, 821 141, 818 135 C816 129, 815 122, 815 113 C815 108, 815 102, 817 98 C817 93, 819 90, 821 87 C823 85, 826 83, 829 81 C835 79, 839 77, 840 75 L840 72 C840 67, 840 63, 839 61 C838 58, 836 57, 833 57 C831 57, 829 58, 828 60 C828 62, 827 65, 826 70 Z M840 92 C839 93, 837 95, 834 96 C830 98, 828 100, 828 101 C827 104, 826 107, 826 111 C826 114, 826 118, 828 121 C828 123, 829 125, 831 125 C834 125, 836 123, 838 120 C839 117, 840 114, 840 111 C840 109, 840 104, 840 98 Z M864 141 L864 0 L875 0 L875 141Z  M883 112 L894 108 C894 113, 895 117, 897 120 C898 123, 900 124, 902 124 C906 124, 908 123, 909 120 C910 119, 911 116, 911 113 C911 111, 911 109, 910 108 C910 107, 908 106, 906 104 C897 100, 891 95, 889 91 C886 86, 884 78, 884 68 C884 59, 886 52, 888 46 C891 40, 896 37, 901 37 C908 37, 911 39, 914 43 C917 48, 919 55, 920 64 L910 69 C910 65, 909 62, 907 59 C906 57, 904 56, 902 56 C899 56, 897 57, 896 59 C895 61, 895 62, 895 65 C895 67, 895 68, 896 70 C897 71, 900 74, 906 77 C911 80, 916 84, 918 89 C921 94, 922 101, 922 109 C922 119, 920 127, 917 134 C913 140, 909 144, 902 144 C897 144, 892 141, 889 135 C886 130, 884 122, 883 112" />
+</defs>
+<clipPath id="TextArt2-clippath">
+   <use xlink:href="#TextArt2-shape"/>
+</clipPath>
+<use xlink:href="#TextArt2-shape" data-href="#TextArt2-shape" clip-path="url(#TextArt2-clippath)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+</svg>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div id="wb_Image1">
+<img src="images/frank_sinatra_archival_p.jpg" id="Image1" alt="">
+</div>
+</div>
+<div class="col-2">
+<div id="wb_IconFont2">
+<div id="IconFont2"><i class="fa fa-quote-left"></i></div>
+</div>
+<div id="wb_Text2">
+<span style="color:#FFFFFF;"><em>&quot;Regrets, I’ve had a few; But then again, too few to mention.&quot;<br><br>&quot;I faced it all and I stood tall and did it my way.&quot;</em></span>
+</div>
+<div id="wb_Text3">
+<span style="color:#FFFFFF;">- Francis Albert Sinatra</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<div id="wb_IconFont5">
+<div id="IconFont5"><i class="fa fa-quote-left"></i></div>
+</div>
+<div id="wb_Text4">
+<span style="color:#FFFFFF;"><em>&quot;Take a deep breath, pick yourself up, dust yourself off, and start all over again.&quot;<br><br>&quot;Nothing anybody’s said or written about me ever bothers me, except when it does.&quot;<br><br>&quot;I think my greatest ambition in life is to pass on to others what I know.&quot;</em></span>
+</div>
+<div id="wb_Text6">
+<span style="color:#FFFFFF;">-</span><span style="color:#000000;"> </span><span style="color:#FFFFFF;">Francis Albert Sinatra</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Image2">
+<img src="images/frank_sinatra_archival_p.jpg" id="Image2" alt="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid7">
+<div id="LayoutGrid7">
+<div class="row">
+<div class="col-1">
+<div id="wb_Image3">
+<img src="images/frank_sinatra_archival_p.jpg" id="Image3" alt="">
+</div>
+</div>
+<div class="col-2">
+<div id="wb_IconFont6">
+<div id="IconFont6"><i class="fa fa-quote-left"></i></div>
+</div>
+<div id="wb_Text7">
+<span style="color:#FFFFFF;"><em>&quot;Orange is the happiest color.&quot;</em></span>
+</div>
+<div id="wb_Text8">
+<span style="color:#FFFFFF;">- Francis Albert Sinatra</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_contact">
+<div id="contact">
+<div class="row">
+<div class="col-1">
+<label for="Line1" id="contactLabel1">Follow Me</label>
+<div id="wb_contactIcon2">
+<a href="https://www.facebook.com/christina.s.szabo"><div id="contactIcon2"><i class="fa fa-facebook"></i></div></a>
+</div>
+<div id="wb_contactIcon3">
+<a href="./index.html"><div id="contactIcon3"><i class="fa fa-instagram"></i></div></a>
+</div>
+<label for="Line1" id="contactLabel4">Address</label>
+<div id="wb_Text1">
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;">Nap utca 52/7<span style="color:#FFFFFF;"><br /></span>Szentendre</p>
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;">2000</p>
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;">Phone: +36 20 427 1007</p>
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;"><a href="mailto:Email: christina_szabo@hotmail.com">Email: christina_szabo@hotmail.com</a></p>
+</div>
+</div>
+<div class="col-2">
+<label for="Line1" id="contactLabel3">Contact Me</label>
+<input type="text" id="contactName" name="name" value="" spellcheck="false" placeholder="Name">
+<input type="text" id="contactEmail" name="email" value="" spellcheck="false" placeholder="Email">
+<textarea name="message" id="contactMessage" rows="2" cols="41" autocomplete="off" spellcheck="false" placeholder="Message"></textarea>
+<input type="submit" id="contactButton" name="" value="Send">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

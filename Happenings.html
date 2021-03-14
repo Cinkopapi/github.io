@@ -1,0 +1,480 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Christina.css" rel="stylesheet">
+<link href="Happenings.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="util.min.js"></script>
+<script src="scrollspy.min.js"></script>
+<script src="carousel.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#floatingHeader']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_floatingHeader').offset().top }, 600, 'easeInSine');
+   });
+   $("a[href*='#header']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
+   });
+   $("#Carousel1").bootstrapcarousel({interval:3000, pause: false});
+   $("#Carousel2").bootstrapcarousel({interval:3000, pause: false});
+   $("#Carousel3").bootstrapcarousel({interval:3000, pause: false});
+   $("a[href*='#LayoutGrid4']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid4').offset().top-50 }, 600, 'linear');
+   });
+   $("#Carousel4").bootstrapcarousel({interval:3000, pause: false});
+   $("a[href*='#LayoutGrid6']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid6').offset().top }, 600, 'linear');
+   });
+   $("#Carousel5").bootstrapcarousel({interval:3000, pause: false});
+   $("a[href*='#contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top }, 600, 'easeOutExpo');
+   });
+});
+</script>
+</head>
+<body data-spy="scroll">
+<div id="wb_floatingHeader">
+<div id="floatingHeader">
+<div class="row">
+<div class="col-1">
+<div id="wb_headerIcon1">
+<a href="https://www.facebook.com/christina.s.szabo" target="_blank"><div id="headerIcon1"><i class="fa fa-facebook-square"></i></div></a>
+</div>
+<div id="wb_headerIcon2">
+<a href="https://www.youtube.com/user/FrankSinatra" target="_blank"><div id="headerIcon2"><i class="fa fa-instagram"></i></div></a>
+</div>
+</div>
+<div class="col-2">
+</div>
+<div class="col-3">
+<div id="wb_headerBreadcrumb">
+<ul id="headerBreadcrumb">
+<li><a href="http://">Magyar</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_header">
+<div id="header">
+<div class="col-1">
+<div id="wb_headerLogo">
+<ul id="headerLogo">
+<li><a href="./index.html#LayoutGrid2">&nbsp; BATIK</a></li>
+</ul>
+
+</div>
+<div id="wb_IconFont7">
+<a href="./index.html#LayoutGrid5"><div id="IconFont7"><i class="fa fa-pagelines"></i></div></a>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_headerMenu">
+<label class="toggle" for="headerMenu-submenu" id="headerMenu-title"><span id="headerMenu-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="headerMenu-submenu">
+<ul class="nav headerMenu" id="headerMenu" role="menu">
+<li class="nav"><a role="menuitem" href="./index.html" class="nav-link">Home</a></li>
+<li class="nav"><a role="menuitem" href="./AboutMe.html" class="nav-link">About&nbsp;me</a></li>
+<li class="nav"><a role="menuitem" href="./MyWorks.html" class="nav-link">My&nbsp;works</a></li>
+<li class="nav">
+<label for="headerMenu-submenu-0" class="toggle">Happenings<b class="arrow-down"></b></label>
+<a role="menuitem" href="./Happenings.html" class="active">Happenings<b class="arrow-down"></b></a>
+<input type="checkbox" id="headerMenu-submenu-0">
+<ul role="menu">
+<li class="nav"><a role="menuitem" href="" class="nav-link">Workshops</a></li>
+<li class="nav"><a role="menuitem" href="./Happenings.html#LayoutGrid4" class="active">Exhibitions</a></li>
+<li class="nav"><a role="menuitem" href="./Happenings.html#LayoutGrid6" class="active">Travels</a></li>
+</ul>
+</li>
+<li class="nav"><a role="menuitem" href="./Contact.html" class="nav-link">Contacts</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGridWorkshop">
+<div id="LayoutGridWorkshop-overlay"></div>
+<div id="LayoutGridWorkshop">
+<div class="col-1">
+<div id="wb_TextArt5">
+<svg id="TextArt5" height="100%" width="100%" viewBox="0 0 940 184" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+   <path id="TextArt5-shape" d="M29 141 L0 0 L25 0 L42 97 L65 0 L93 0 L114 99 L133 0 L157 0 L128 141 L102 141 L78 36 L54 141Z  M165 89 C165 80, 167 71, 170 63 C174 54, 180 48, 187 43 C194 39, 201 37, 210 37 C223 37, 234 42, 242 52 C251 62, 254 75, 254 90 C254 105, 251 118, 241 128 C233 139, 223 144, 210 144 C202 144, 194 142, 187 137 C180 133, 174 127, 170 119 C167 111, 165 100, 165 89 Z M189 90 C189 100, 191 108, 194 113 C199 119, 204 122, 210 122 C216 122, 221 119, 225 113 C229 108, 231 100, 231 90 C231 80, 229 72, 225 67 C221 62, 216 59, 210 59 C204 59, 199 62, 194 67 C191 72, 189 80, 189 90 Z M298 141 L275 141 L275 39 L296 39 L296 54 C300 47, 303 42, 306 40 C309 38, 311 37, 315 37 C321 37, 326 38, 331 42 L323 65 C320 62, 316 61, 312 61 C310 61, 307 62, 305 64 C302 66, 300 70, 300 75 C299 81, 298 92, 298 110 Z M342 141 L342 0 L365 0 L365 75 L392 39 L419 39 L390 76 L422 141 L397 141 L375 95 L365 109 L365 141Z  M430 112 L453 108 C454 113, 456 117, 459 120 C462 123, 466 124, 472 124 C477 124, 482 123, 485 120 C487 119, 488 116, 488 113 C488 111, 488 109, 487 108 C485 107, 483 106, 478 104 C460 100, 449 95, 443 91 C437 86, 433 78, 433 68 C433 59, 436 52, 442 46 C448 40, 457 37, 470 37 C481 37, 490 39, 496 43 C501 48, 506 55, 508 64 L487 69 C486 65, 484 62, 481 59 C478 57, 475 56, 470 56 C464 56, 460 57, 457 59 C455 61, 454 62, 454 65 C454 67, 455 68, 457 70 C459 71, 466 74, 478 77 C490 80, 499 84, 504 89 C509 94, 511 101, 511 109 C511 119, 508 127, 501 134 C494 140, 485 144, 472 144 C460 144, 451 141, 443 135 C437 130, 432 122, 430 112 Z M557 0 L557 52 C564 42, 572 37, 583 37 C588 37, 593 38, 597 40 C602 42, 605 45, 606 49 C609 53, 610 57, 611 61 C612 65, 613 72, 613 81 L613 141 L590 141 L590 87 C590 76, 589 70, 588 67 C587 64, 586 62, 583 60 C582 58, 579 57, 575 57 C571 57, 568 58, 565 61 C562 63, 560 66, 558 71 C558 75, 557 82, 557 90 L557 141 L534 141 L534 0Z  M633 89 C633 80, 635 71, 639 63 C642 54, 648 48, 655 43 C662 39, 670 37, 678 37 C691 37, 702 42, 711 52 C719 62, 723 75, 723 90 C723 105, 719 118, 710 128 C701 139, 691 144, 678 144 C670 144, 663 142, 655 137 C648 133, 642 127, 639 119 C635 111, 633 100, 633 89 Z M657 90 C657 100, 659 108, 663 113 C667 119, 672 122, 678 122 C684 122, 689 119, 693 113 C697 108, 699 100, 699 90 C699 80, 697 72, 693 67 C689 62, 684 59, 678 59 C672 59, 667 62, 663 67 C659 72, 657 80, 657 90 Z M743 39 L765 39 L765 54 C768 49, 771 45, 776 41 C781 38, 786 37, 792 37 C802 37, 810 41, 817 51 C824 60, 828 73, 828 90 C828 107, 824 120, 817 130 C810 139, 802 144, 792 144 C786 144, 782 143, 779 140 C774 138, 770 134, 766 129 L766 180 L743 180Z  M766 88 C766 100, 768 108, 771 114 C775 119, 780 122, 786 122 C791 122, 795 120, 799 115 C803 110, 805 101, 805 90 C805 79, 803 71, 799 66 C795 61, 791 58, 785 58 C780 58, 775 61, 771 66 C768 71, 766 78, 766 88 Z M840 112 L864 108 C864 113, 866 117, 870 120 C873 123, 876 124, 882 124 C888 124, 893 123, 896 120 C898 119, 899 116, 899 113 C899 111, 898 109, 897 108 C896 107, 893 106, 889 104 C871 100, 859 95, 854 91 C847 86, 844 78, 844 68 C844 59, 847 52, 852 46 C859 40, 868 37, 880 37 C892 37, 901 39, 907 43 C912 48, 916 55, 919 64 L897 69 C896 65, 894 62, 892 59 C889 57, 886 56, 881 56 C875 56, 870 57, 868 59 C866 61, 865 62, 865 65 C865 67, 866 68, 867 70 C870 71, 876 74, 888 77 C901 80, 910 84, 914 89 C919 94, 922 101, 922 109 C922 119, 918 127, 911 134 C905 140, 895 144, 882 144 C870 144, 861 141, 854 135 C847 130, 843 122, 840 112" />
+</defs>
+<clipPath id="TextArt5-clippath">
+   <use xlink:href="#TextArt5-shape"/>
+</clipPath>
+<use xlink:href="#TextArt5-shape" data-href="#TextArt5-shape" clip-path="url(#TextArt5-clippath)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+</svg>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_carouselGrid">
+<div id="carouselGrid">
+<div class="col-1">
+<div id="wb_Carousel1">
+<div id="Carousel1" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#Carousel1" data-slide-to="0" class="active"></li>
+<li data-target="#Carousel1" data-slide-to="1"></li>
+<li data-target="#Carousel1" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item frame-1 active">
+<div class="carousel-innerframe">
+<div id="wb_Text2" class="caption">
+<span style="color:#000000;font-family:Arial;font-size:21px;line-height:24px;"><strong>First Slide</strong></span><span style="color:#000000;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the first slide.</span>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-2">
+<div class="carousel-innerframe">
+<div id="wb_Text3" class="caption">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Second Slide</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the second slide.</span>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-3">
+<div class="carousel-innerframe">
+<div id="wb_Text5" class="caption">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Third Slide</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the third slide.</span>
+</div>
+</div>
+</div>
+</div>
+<a class="carousel-item-left carousel-control" href="#Carousel1" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+</a>
+<a class="carousel-item-right carousel-control" href="#Carousel1" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+</div>
+<div class="col-2">
+<div id="wb_Text4">
+<span style="color:#FFFFFF;font-family:'Courier New';font-size:32px;line-height:36px;">01 March|<br><strong><br>Indonesian Batik Workshop with Christina</strong><br><br></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:16px;line-height:19px;">In this semester, besides the use of tsanting and aquarelles, we learn more about techniques. If you want to join this joyful creative team as a new one, then it is also possible to explain and deal with each person.</span>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Divider1">
+<div id="Divider1-overlay"></div>
+<div id="Divider1">
+<div class="row">
+<div class="col-1">
+<hr id="DividerLine1">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text1">
+<span style="color:#FFFFFF;font-family:'Courier New';font-size:32px;line-height:36px;">14 January|</span><span style="color:#FFFFFF;font-family:Arial;font-size:32px;line-height:30px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:27px;line-height:36px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:32px;line-height:36px;"><strong>Klimt Workshop<br> </strong></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:27px;line-height:15px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:19px;"><br></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:16px;line-height:19px;">This workshop is about more than painting an iconic image, transforming it into one's own image and making it a magical creation. </span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Carousel2">
+<div id="Carousel2" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#Carousel2" data-slide-to="0" class="active"></li>
+<li data-target="#Carousel2" data-slide-to="1"></li>
+<li data-target="#Carousel2" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item frame-1 active">
+<div class="carousel-innerframe">
+<div id="wb_Text6" class="caption">
+<span style="color:#000000;font-family:Arial;font-size:21px;line-height:24px;"><strong>First Slide</strong></span><span style="color:#000000;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the first slide.</span>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-2">
+<div class="carousel-innerframe">
+<div id="wb_Text7" class="caption">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Second Slide</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the second slide.</span>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-3">
+<div class="carousel-innerframe">
+<div id="wb_Text8" class="caption">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Third Slide</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the third slide.</span>
+</div>
+</div>
+</div>
+</div>
+<a class="carousel-item-left carousel-control" href="#Carousel2" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+</a>
+<a class="carousel-item-right carousel-control" href="#Carousel2" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1-overlay"></div>
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<hr id="Line1">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_Carousel3">
+<div id="Carousel3" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#Carousel3" data-slide-to="0" class="active"></li>
+<li data-target="#Carousel3" data-slide-to="1"></li>
+<li data-target="#Carousel3" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item frame-1 active">
+<div class="carousel-innerframe">
+<div id="wb_Text10" class="caption">
+<span style="color:#000000;font-family:Arial;font-size:21px;line-height:24px;"><strong>First Slide</strong></span><span style="color:#000000;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the first slide.</span>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-2">
+<div class="carousel-innerframe">
+<div id="wb_Text11" class="caption">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Second Slide</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the second slide.</span>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-3">
+<div class="carousel-innerframe">
+<div id="wb_Text12" class="caption">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Third Slide</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the third slide.</span>
+</div>
+</div>
+</div>
+</div>
+<a class="carousel-item-left carousel-control" href="#Carousel3" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+</a>
+<a class="carousel-item-right carousel-control" href="#Carousel3" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+</div>
+<div class="col-2">
+<div id="wb_Text9">
+<span style="color:#FFFFFF;font-family:'Courier New';font-size:32px;line-height:36px;">18 November|</span><span style="color:#FFFFFF;font-family:Arial;font-size:32px;line-height:30px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:27px;line-height:36px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:32px;line-height:36px;"><strong>Vax Painting on Silk</strong></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:27px;line-height:14px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:15px;"><br><br></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:16px;line-height:18px;">A viaszbatik selyemre - varázsbatik. A batik technikával készült alkotások egyébként is különlegesek, misztikusak, varázslatosak - a selyemre készült viaszbatik munkák pedig ezen felül finomak, fényesek, gyönyörűsűgesen színesek is.</span>
+</div>
+<input type="submit" id="Button2" name="" value="More Info">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4-overlay"></div>
+<div id="LayoutGrid4">
+<div class="col-1">
+<div id="wb_TextArt1">
+<svg id="TextArt1" height="100%" width="100%" viewBox="0 0 940 160" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+   <path id="TextArt1-shape" d="M0 154 L0 0 L90 0 L90 26 L25 26 L25 60 L86 60 L86 86 L25 86 L25 128 L93 128 L93 154Z  M106 154 L137 97 L107 43 L135 43 L151 73 L168 43 L195 43 L165 96 L197 154 L169 154 L151 120 L133 154Z  M238 0 L238 57 C245 46, 254 40, 264 40 C270 40, 275 41, 279 44 C284 46, 287 50, 288 53 C291 57, 292 62, 293 67 C294 71, 295 79, 295 89 L295 154 L271 154 L271 95 C271 84, 271 76, 270 73 C269 70, 267 67, 265 65 C263 64, 260 63, 257 63 C253 63, 250 64, 246 66 C243 69, 241 72, 240 77 C239 82, 238 89, 238 98 L238 154 L214 154 L214 0Z  M322 27 L322 0 L345 0 L345 27Z  M322 154 L322 43 L345 43 L345 154Z  M370 154 L370 0 L393 0 L393 56 C400 45, 408 40, 418 40 C429 40, 438 45, 445 55 C452 65, 455 79, 455 97 C455 116, 452 131, 444 141 C438 152, 429 157, 418 157 C414 157, 408 155, 404 152 C399 149, 394 144, 391 138 L391 154Z  M393 96 C393 108, 394 116, 396 122 C401 130, 406 133, 413 133 C418 133, 422 131, 426 125 C429 120, 431 111, 431 99 C431 86, 429 77, 426 71 C422 65, 417 63, 412 63 C406 63, 402 65, 398 71 C394 76, 393 85, 393 96 Z M477 27 L477 0 L500 0 L500 27Z  M477 154 L477 43 L500 43 L500 154Z  M567 43 L567 66 L550 66 L550 111 C550 120, 551 126, 551 127 C551 129, 552 130, 553 131 C554 132, 556 132, 557 132 C559 132, 562 131, 567 130 L569 152 C563 155, 557 157, 550 157 C546 157, 542 156, 538 154 C535 152, 533 150, 531 147 C530 144, 528 141, 528 136 C527 132, 527 125, 527 115 L527 66 L516 66 L516 43 L527 43 L527 20 L550 3 L550 43Z  M584 27 L584 0 L607 0 L607 27Z  M584 154 L584 43 L607 43 L607 154Z  M628 97 C628 87, 629 77, 633 68 C637 59, 642 52, 650 47 C657 42, 664 40, 673 40 C687 40, 698 45, 706 56 C714 67, 719 81, 719 98 C719 115, 714 129, 706 140 C698 151, 687 157, 674 157 C665 157, 657 155, 650 150 C642 145, 637 139, 633 130 C629 121, 628 110, 628 97 Z M652 99 C652 109, 653 118, 658 124 C662 130, 667 133, 673 133 C679 133, 685 130, 688 124 C693 118, 695 109, 695 98 C695 87, 693 79, 688 73 C685 67, 679 64, 673 64 C667 64, 662 67, 658 73 C653 79, 652 87, 652 99 Z M820 154 L797 154 L797 97 C797 85, 796 77, 795 74 C794 70, 793 68, 791 66 C789 64, 786 63, 782 63 C779 63, 775 64, 771 67 C769 70, 767 73, 765 78 C764 83, 763 91, 763 104 L763 154 L740 154 L740 43 L762 43 L762 59 C770 46, 779 40, 791 40 C796 40, 801 41, 805 44 C809 46, 813 49, 815 53 C817 56, 818 60, 819 65 C820 70, 820 76, 820 85 Z M840 123 L863 118 C864 124, 865 128, 869 131 C872 134, 875 136, 881 136 C887 136, 892 134, 895 131 C897 129, 899 127, 899 123 C899 121, 898 119, 897 118 C895 116, 893 115, 888 114 C870 109, 858 104, 852 99 C846 93, 842 85, 842 74 C842 65, 845 56, 852 50 C857 43, 867 40, 879 40 C891 40, 900 43, 907 48 C912 52, 916 60, 919 70 L897 75 C896 70, 894 67, 891 65 C888 62, 885 61, 880 61 C874 61, 869 62, 866 64 C865 66, 864 68, 864 71 C864 73, 864 74, 866 76 C868 78, 875 81, 888 84 C900 88, 910 92, 914 97 C919 103, 922 110, 922 119 C922 130, 918 139, 911 146 C905 153, 895 157, 881 157 C869 157, 860 154, 852 148 C846 141, 841 133, 840 123" />
+</defs>
+<clipPath id="TextArt1-clippath">
+   <use xlink:href="#TextArt1-shape"/>
+</clipPath>
+<use xlink:href="#TextArt1-shape" data-href="#TextArt1-shape" clip-path="url(#TextArt1-clippath)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+</svg>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div id="wb_Carousel4">
+<div id="Carousel4" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#Carousel4" data-slide-to="0" class="active"></li>
+<li data-target="#Carousel4" data-slide-to="1"></li>
+<li data-target="#Carousel4" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item frame-1 active">
+<div class="carousel-innerframe">
+<div id="wb_Text14" class="caption">
+<span style="color:#000000;font-family:Arial;font-size:21px;line-height:24px;"><strong>First Slide</strong></span><span style="color:#000000;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the first slide.</span>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-2">
+<div class="carousel-innerframe">
+<div id="wb_Text15" class="caption">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Second Slide</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the second slide.</span>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-3">
+<div class="carousel-innerframe">
+<div id="wb_Text16" class="caption">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Third Slide</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the third slide.</span>
+</div>
+</div>
+</div>
+</div>
+<a class="carousel-item-left carousel-control" href="#Carousel4" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+</a>
+<a class="carousel-item-right carousel-control" href="#Carousel4" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+</div>
+<div class="col-2">
+<div id="wb_Text13">
+<span style="color:#FFFFFF;font-family:'Courier New';font-size:32px;line-height:36px;">24 Marcius|</span><span style="color:#FFFFFF;font-family:Arial;font-size:32px;line-height:30px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:27px;line-height:36px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:32px;line-height:36px;"><strong>Skarupka Szabó Christina és Skarupka István kiállítása</strong></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:27px;line-height:15px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:15px;"><br><br></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:16px;line-height:18px;">A viaszbatik selyemre - varázsbatik. A batik technikával készült alkotások egyébként is különlegesek, misztikusak, varázslatosak - a selyemre készült viaszbatik munkák pedig ezen felül finomak, fényesek, gyönyörűsűgesen színesek is.</span>
+</div>
+<input type="submit" id="Button3" name="" value="More Info">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6-overlay"></div>
+<div id="LayoutGrid6">
+<div class="col-1">
+<div id="wb_TextArt2">
+<svg id="TextArt2" height="100%" width="100%" viewBox="0 0 940 163" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+   <path id="TextArt2-shape" d="M56 157 L56 27 L0 27 L0 0 L151 0 L151 27 L95 27 L95 157Z  M201 157 L164 157 L164 43 L198 43 L198 59 C204 52, 209 47, 214 44 C218 42, 224 41, 229 41 C238 41, 246 43, 253 47 L242 73 C236 69, 230 68, 225 68 C220 68, 216 69, 212 71 C208 74, 206 78, 204 84 C202 90, 201 103, 201 122 Z M300 78 L266 73 C270 62, 276 54, 286 49 C295 43, 309 41, 326 41 C343 41, 355 42, 362 46 C370 49, 376 53, 380 58 C382 62, 384 72, 384 85 L384 120 C384 130, 384 137, 385 142 C387 147, 389 152, 393 157 L356 157 C355 155, 354 152, 353 148 C352 147, 351 145, 351 145 C345 150, 338 154, 331 156 C324 159, 317 160, 309 160 C294 160, 283 157, 275 150 C266 144, 263 136, 263 126 C263 120, 264 114, 268 109 C272 104, 277 100, 284 97 C290 95, 300 92, 313 90 C330 88, 342 85, 348 83 L348 80 C348 74, 347 70, 343 67 C340 65, 334 64, 323 64 C317 64, 312 65, 309 67 C305 69, 302 73, 300 78 Z M348 103 C344 104, 336 105, 326 107 C316 109, 310 111, 306 112 C301 115, 300 119, 300 123 C300 127, 301 131, 305 134 C309 137, 313 139, 320 139 C326 139, 333 137, 338 133 C343 131, 346 127, 347 123 C348 121, 348 116, 348 109 Z M463 157 L407 43 L445 43 L471 101 L479 121 C481 116, 482 113, 483 111 C484 108, 485 105, 487 101 L512 43 L550 43 L496 157Z  M657 121 L693 126 C688 137, 681 145, 671 151 C661 157, 649 160, 633 160 C609 160, 592 153, 580 140 C571 130, 567 117, 567 101 C567 82, 572 67, 584 57 C596 46, 611 41, 629 41 C651 41, 666 46, 678 58 C690 69, 696 86, 695 109 L604 109 C604 118, 607 125, 613 130 C618 135, 626 137, 634 137 C640 137, 644 136, 648 133 C652 131, 655 127, 657 121 Z M659 90 C659 82, 656 75, 651 71 C646 66, 640 64, 632 64 C624 64, 617 66, 612 71 C607 76, 605 82, 605 90 Z M730 157 L730 0 L766 0 L766 157Z  M793 125 L829 120 C831 126, 834 130, 839 133 C843 136, 851 138, 859 138 C868 138, 875 137, 880 134 C884 132, 885 129, 885 126 C885 123, 884 121, 882 120 C880 119, 876 117, 870 116 C840 111, 822 106, 814 101 C804 95, 798 87, 798 76 C798 66, 803 58, 812 51 C821 44, 836 41, 856 41 C875 41, 888 43, 898 48 C907 53, 913 61, 917 71 L883 76 C881 72, 878 68, 874 66 C870 64, 864 62, 856 62 C847 62, 840 64, 836 66 C833 67, 831 69, 831 72 C831 74, 833 76, 835 77 C839 79, 850 82, 869 86 C889 89, 902 94, 911 99 C918 105, 922 112, 922 122 C922 132, 916 141, 906 149 C895 156, 879 160, 859 160 C840 160, 825 157, 814 150 C804 144, 796 136, 793 125" />
+</defs>
+<clipPath id="TextArt2-clippath">
+   <use xlink:href="#TextArt2-shape"/>
+</clipPath>
+<use xlink:href="#TextArt2-shape" data-href="#TextArt2-shape" clip-path="url(#TextArt2-clippath)" style="fill:none;stroke:#FFFFFF;stroke-width:4"/>
+</svg>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid7">
+<div id="LayoutGrid7">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text17">
+<span style="color:#FFFFFF;font-family:'Courier New';font-size:32px;line-height:36px;">14 - 28 February|</span><span style="color:#FFFFFF;font-family:Arial;font-size:32px;line-height:30px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:27px;line-height:37px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:32px;line-height:37px;"><strong>Bali<br> </strong></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:27px;line-height:15px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:18px;"><br></span><span style="color:#FFFFFF;font-family:'Courier New';font-size:16px;line-height:18px;">This workshop is about more than painting an iconic image, transforming it into one's own image and making it a magical creation. </span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Carousel5">
+<div id="Carousel5" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#Carousel5" data-slide-to="0" class="active"></li>
+<li data-target="#Carousel5" data-slide-to="1"></li>
+<li data-target="#Carousel5" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item frame-1 active">
+<div class="carousel-innerframe">
+<div id="wb_Text18" class="caption">
+<span style="color:#000000;font-family:Arial;font-size:21px;line-height:24px;"><strong>First Slide</strong></span><span style="color:#000000;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the first slide.</span>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-2">
+<div class="carousel-innerframe">
+<div id="wb_Text19" class="caption">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Second Slide</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the second slide.</span>
+</div>
+</div>
+</div>
+<div class="carousel-item frame-3">
+<div class="carousel-innerframe">
+<div id="wb_Text20" class="caption">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Third Slide</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">This is a description for the third slide.</span>
+</div>
+</div>
+</div>
+</div>
+<a class="carousel-item-left carousel-control" href="#Carousel5" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+</a>
+<a class="carousel-item-right carousel-control" href="#Carousel5" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_contact">
+<div id="contact">
+<div class="col-1">
+<label for="Text4" id="contactLabel1">Follow Me</label>
+<div id="wb_contactIcon2">
+<a href="https://www.facebook.com/christina.s.szabo"><div id="contactIcon2"><i class="fa fa-facebook"></i></div></a>
+</div>
+<div id="wb_contactIcon3">
+<a href="./index.html"><div id="contactIcon3"><i class="fa fa-instagram"></i></div></a>
+</div>
+<label for="Text4" id="contactLabel4">Address</label>
+<div id="wb_Text21">
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;">Nap utca 52/7<span style="color:#FFFFFF;"><br /></span>Szentendre</p>
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;">2000</p>
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;">Phone: +36 20 427 1007</p>
+<p style="font-size:13px;line-height:16px;color:#FFFFFF;"><a href="mailto:Email: christina_szabo@hotmail.com">Email: christina_szabo@hotmail.com</a></p>
+</div>
+</div>
+<div class="col-2">
+<label for="Text4" id="contactLabel3">Contact Me</label>
+<input type="text" id="contactName" name="name" value="" spellcheck="false" placeholder="Name">
+<input type="text" id="contactEmail" name="email" value="" spellcheck="false" placeholder="Email">
+<textarea name="message" id="contactMessage" rows="2" cols="41" autocomplete="off" spellcheck="false" placeholder="Message"></textarea>
+<input type="submit" id="contactButton" name="" value="Send">
+</div>
+</div>
+</div>
+</body>
+</html>
